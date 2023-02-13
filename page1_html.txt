@@ -1,0 +1,107 @@
+<table id="sc" cellspacing="0" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1802" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1802', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Paris Sunshine won</td>
+                            </tr>
+                            <tr>
+                                <td>Pegasus 106/10 </td>
+                            </tr>
+                            <tr>
+                              <td>Paris Sunshine 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1803" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1803', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Masters won</td>
+                            </tr>
+                            <tr>
+                                <td>Spartans 174/6 </td>
+                            </tr>
+                            <tr>
+                              <td>Masters 178/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1804" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1804', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Gladiators won</td>
+                            </tr>
+                            <tr>
+                                <td>Fuzion SC 151/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Brampton Gladiators 156/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1805" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1805', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise won</td>
+                            </tr>
+                            <tr>
+                                <td>Aces Cricket Club 164/7 </td>
+                            </tr>
+                            <tr>
+                              <td>Enterprise 167/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1866" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1866', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Wildfiya won</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Rangers 100/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Wildfiya 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1867" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1867', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Smashers won</td>
+                            </tr>
+                            <tr>
+                                <td>Guycan Tridents 0/0 </td>
+                            </tr>
+                            <tr>
+                              <td>Smashers 0/0  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td>
+	</tr>
+</tbody></table>

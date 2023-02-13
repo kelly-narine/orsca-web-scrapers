@@ -1,0 +1,115 @@
+<table style="width:100%; height:70px">
+          <tbody><tr>
+              <td style="width:2%"><input type="submit" name="ctl00$btnprevious" value="<" id="btnprevious" style="font-weight:bold;height:70px;width:15px;"></td>
+              <td>
+                <table id="sc" cellspacing="0" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1868" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1868', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Cool Runningz won</td>
+                            </tr>
+                            <tr>
+                                <td>Tricounty 106/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Cool Runningz 110/4  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1869" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1869', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Industry CC won</td>
+                            </tr>
+                            <tr>
+                                <td>11 Man Army 170/6 </td>
+                            </tr>
+                            <tr>
+                              <td>Industry CC 172/8  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1870" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1870', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Phoenix 11 won</td>
+                            </tr>
+                            <tr>
+                                <td>Panthers 203/8  </td>
+                            </tr>
+                            <tr>
+                              <td>Phoenix 11 204/4 </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1798" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1798', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 07 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Fuzion SC won</td>
+                            </tr>
+                            <tr>
+                                <td>Aces Cricket Club 41/10  </td>
+                            </tr>
+                            <tr>
+                              <td>Fuzion SC 189/6 </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1799" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1799', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 07 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Spartans won</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise 189/7  </td>
+                            </tr>
+                            <tr>
+                              <td>Spartans 192/5 </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1800" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1800', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 07 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Masters won</td>
+                            </tr>
+                            <tr>
+                                <td>Paris Sunshine 213/9 </td>
+                            </tr>
+                            <tr>
+                              <td>Masters 230/5  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td>
+	</tr>
+</tbody></table>
+            </td>
+            <td style="width:2%"><input type="submit" name="ctl00$btnnext" value=">" id="btnnext" style="font-weight:bold;height:70px;width:15px;"></td>
+        </tr>
+    </tbody></table>
