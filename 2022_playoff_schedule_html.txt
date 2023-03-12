@@ -1,0 +1,150 @@
+<table class="schedtbl">
+    <tbody><tr>
+    <th>M</th>
+    <th class="datehdr">Date</th>
+    <th class="matchhdr">Match</th>
+    <th class="stathd">Venue No.</th>
+    <th>Location</th>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="txtindent">1.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1890" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1890', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Smashers VS. Brampton Rangers Scorecard</a></div></td>
+    <td>10</td>
+    <td>
+    <a href="Map.aspx?VenueID=61" onclick="window.open('Map.aspx?VenueID=61', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Brookview Middle School, 4505 Jane St. North York</a>
+    </td>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="txtindent">2.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1889" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1889', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Pegasus VS. Spartans Scorecard</a></div></td>
+    <td>45</td>
+    <td>
+    <a href="Map.aspx?VenueID=71" onclick="window.open('Map.aspx?VenueID=71', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">A Field - Hanover Public School 215 Hanover Road, Brampton</a>
+    </td>
+    </tr>    
+    
+    <tr class="altcolor">
+    <td class="txtindent">3.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1893" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1893', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">11 Man Army VS. Phoenix 11 Scorecard</a></div></td>
+    <td>22</td>
+    <td>
+    <a href="Map.aspx?VenueID=86" onclick="window.open('Map.aspx?VenueID=86', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Dorset Public School. 100 Dorset Drive, Brampton, ON L6T 2Y9</a>
+    </td>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="txtindent">4.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1888" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1888', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Brampton Gladiators VS. Enterprise Scorecard</a></div></td>
+    <td>24</td>
+    <td>
+    <a href="Map.aspx?VenueID=91" onclick="window.open('Map.aspx?VenueID=91', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">B Field Hanover Public School 215 Hanover Road, Brampton</a>
+    </td>
+    </tr>    
+    
+    <tr class="altcolor">
+    <td class="txtindent">5.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1886" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1886', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Masters VS. Aces Cricket Club Scorecard</a></div></td>
+    <td>44</td>
+    <td>
+    <a href="Map.aspx?VenueID=70" onclick="window.open('Map.aspx?VenueID=70', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Thackeray Park, 2955 Kipling Ave M5H 2N2</a>
+    </td>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="txtindent">6.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1891" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1891', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Wildfiya VS. Cool Runningz Scorecard</a></div></td>
+    <td>14</td>
+    <td>
+    <a href="Map.aspx?VenueID=68" onclick="window.open('Map.aspx?VenueID=68', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Marvin Heights Public school, 7455 Redstone Rd, Mississauga</a>
+    </td>
+    </tr>    
+    
+    <tr class="altcolor">
+    <td class="txtindent">7.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1892" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1892', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Industry CC VS. Panthers Scorecard</a></div></td>
+    <td>1</td>
+    <td>
+    <a href="Map.aspx?VenueID=52" onclick="window.open('Map.aspx?VenueID=52', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Chinguacousy Secondary School 1370 Williams Parkway Brampton ON L6S 1V3</a>
+    </td>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="txtindent">8.</td>
+    <td>Sun 28 Aug 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1887" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1887', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Paris Sunshine VS. Fuzion SC Scorecard</a></div></td>
+    <td>43</td>
+    <td>
+    <a href="Map.aspx?VenueID=134" onclick="window.open('Map.aspx?VenueID=134', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Robert J Lee Public School, 160 Mountainash Road, Brampton</a>
+    </td>
+    </tr>    
+    
+    <tr class="altcolor">
+    <td class="txtindent">9.</td>
+    <td>Sun 11 Sep 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1896" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1896', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Smashers VS. 11 Man Army Scorecard</a></div></td>
+    <td>10</td>
+    <td>
+    <a href="Map.aspx?VenueID=61" onclick="window.open('Map.aspx?VenueID=61', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Brookview Middle School, 4505 Jane St. North York</a>
+    </td>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="txtindent">10.</td>
+    <td>Sun 11 Sep 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1894" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1894', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Masters VS. Pegasus Scorecard</a></div></td>
+    <td>44</td>
+    <td>
+    <a href="Map.aspx?VenueID=70" onclick="window.open('Map.aspx?VenueID=70', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Thackeray Park, 2955 Kipling Ave M5H 2N2</a>
+    </td>
+    </tr>    
+    
+    <tr class="altcolor">
+    <td class="txtindent">11.</td>
+    <td>Sun 11 Sep 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1897" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1897', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Wildfiya VS. Industry CC Scorecard</a></div></td>
+    <td>14</td>
+    <td>
+    <a href="Map.aspx?VenueID=68" onclick="window.open('Map.aspx?VenueID=68', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Marvin Heights Public school, 7455 Redstone Rd, Mississauga</a>
+    </td>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="txtindent">12.</td>
+    <td>Sun 11 Sep 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1895" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1895', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Paris Sunshine VS. Enterprise Scorecard</a></div></td>
+    <td>43</td>
+    <td>
+    <a href="Map.aspx?VenueID=134" onclick="window.open('Map.aspx?VenueID=134', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Robert J Lee Public School, 160 Mountainash Road, Brampton</a>
+    </td>
+    </tr>    
+    
+    <tr class="altcolor">
+    <td class="txtindent">13.</td>
+    <td>Sat 17 Sep 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1899" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1899', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Smashers VS. Wildfiya Scorecard</a></div></td>
+    <td>62</td>
+    <td>
+    <a href="Map.aspx?VenueID=143" onclick="window.open('Map.aspx?VenueID=143', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Dixie 407 Sports Park, 7455 Dixie Rd, Brampton</a>
+    </td>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="txtindent">14.</td>
+    <td>Sat 17 Sep 2022</td>    
+    <td><div><a href="Scorecard.aspx?MatchID=1898" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1898', 'popup','width=560, height=620, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">Masters VS. Paris Sunshine Scorecard</a></div></td>
+    <td>62</td>
+    <td>
+    <a href="Map.aspx?VenueID=143" onclick="window.open('Map.aspx?VenueID=143', '_blank', 'scrollbars=yes, directories=no, status=no, menubar=yes'); return false;" target="_blank">Dixie 407 Sports Park, 7455 Dixie Rd, Brampton</a>
+    </td>
+    </tr>    
+    
+    </tbody></table>
