@@ -1,0 +1,3717 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>
+	Official Site: ORSCA
+</title><link href="../Styles/Site.css" rel="stylesheet" type="text/css"><link href="../Styles/orsca.css" rel="stylesheet" type="text/css"><link href="../Styles/MainSite.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.galleryview-1.1.js"></script>
+    <script type="text/javascript" src="../js/jquery.timers-1.1.2.js"></script>
+    <script type="text/javascript" src="../js/readgallery.js"></script>
+    
+</head>
+<body>
+<form method="post" action="./Teamstats.aspx" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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ZWFtLS0tCzExIE1hbiBBcm15EUFjZXMgQ3JpY2tldCBDbHViE0JyYW1wdG9uIEdsYWRpYXRvcnMQQnJhbXB0b24gUmFuZ2Vycw1Db29sIFJ1bm5pbmd6CkVudGVycHJpc2UGRmluYWxzCUZ1emlvbiBTQw9HdXljYW4gVHJpZGVudHMLSW5kdXN0cnkgQ0MHTWFzdGVycwhQYW50aGVycw5QYXJpcyBTdW5zaGluZQdQZWdhc3VzClBob2VuaXggMTELU2VtaSBGaW5hbHMIU21hc2hlcnMIU3BhcnRhbnMDVEJBCVRyaWNvdW50eQhXaWxkZml5YRUWES0tLVNlbGVjdCBUZWFtLS0tAjI0AjUxAjM1ATcCNTkCNDgCNDECMTYCNjQCNjACMzkBMQI2MQIyMwI2MwI0MgEzAjI5AjQ5AjEyAjU3FCsDFmdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAhUPFgIfAwLJARaSAwIBD2QWAmYPFQkBMQlJbXJhbiBBbGkOUGFyaXMgU3Vuc2hpbmUBMwEzATEDMTAyAzE4NwU5My41MGQCAg9kFgJmDxUJATINQWRyaWFuIFN1a2h3YQdQZWdhc3VzATMBMwExAjY0AzEwMQU1MC41MGQCAw9kFgJmDxUJATMRRGluZXNoIFJhbWtpc3Nvb24IU21hc2hlcnMBMgEyATACNTMCOTMFNDYuNTBkAgQPZBYCZg8VCQE0EE1vcnJpc29uIEVkd2FyZHMIU3BhcnRhbnMBMgEyATECODECODQFODQuMDBkAgUPZBYCZg8VCQE1DEFuaWwgRXR3YXJvbw5QYXJpcyBTdW5zaGluZQEzATMBMAIzOAI4MwUyNy42N2QCBg9kFgJmDxUJATYQRGFtb2RhciBEYWVzcmF0aBNCcmFtcHRvbiBHbGFkaWF0b3JzATMBMwExAjQ2AjgzBTQxLjUwZAIHD2QWAmYPFQkBNxBEYXZpbmRyYSBTdWtoZGVvCUZ1emlvbiBTQwEyATIBMQI1MwI3MQU3MS4wMGQCCA9kFgJmDxUJATgcRGV2YW5hbmQgKERldm8pIFJhbXNhd2FrIChDKQdQZWdhc3VzATQBNAExAjMyAjY3BTIyLjMzZAIJD2QWAmYPFQkBOQ5Bc2h0YXEgTW9oYW1lZBFBY2VzIENyaWNrZXQgQ2x1YgEyATIB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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl01'];
+if (!theForm) {
+    theForm = document.ctl01;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4376C4F4">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACJs7WXQRbbqEupdtFzkfLQRYWvFbb6I8rOw9MrHen9ZihRJxXISpMuntOoEAN3hWA1Yjh44UFCA71tSpJ0U3aXhalsTIore+y0JqinhHEUm7hqCu5SylFgSJtYLEC2NqztPfAKNL2rxfWM3wgAWUVR+OpPrrfMj0lUIZF1fSQLcAXwgIR7MTmpicPQ8B/GCyP/ApS5RaKmp71JIdDooIu9xjhN65SgttEqwmKyl+pqtcm32Nsv+Hq3FBJwr7FUWvR3Jz3bItN3gXetIbS73RGMqyp4jOt49DIngavjz+Z0Q0oJWfME52Ytfw8+v/V7cr0UqAiwpouuwD4xk/S3V9Oy6TMd4ZLaE6ak6ynvaVAz7cv4/pIKty9YVIPkjgMKWC+ro+SE6VEuoMevOCW/pImB3xNcpirD25P+sgwTBpIkx4OW7KqTce6/K9NLZP1LYE5EQ6e/B0r1XuPvdOVjbgIrjX1J9GJmZbb8wsJEBEouSv1Zg59pHe3OWPly8jhzEw1ziFpguVjtdqnaYY0SQYc2l4dwVGRqs4UrbOzkSEQ/pts3yRsdQAwWqCLlVC4zIoYhhjP/uJj7XXLWbk/GIHzH8fPZLEYOb9JZq9A3LfwNzocbHLR9NocJ5MQvawscE6AgjTh1+AnsIGxwHQ2MJNyS/IkpsOrHpX4cgY7kRHnw/d7230ndDqOTZwuqlzCjGW/jh6g1ST6fRApCPnBkxewWnpOJlQTc7LJcDRWbZNRO2dKOXQs+vQyaHwFzjZSQlggY=">
+</div>
+<div class="page">
+    <div class="header">
+<div class="scoreboardbg"><!--Beginning of ScoreBoard div-->
+    <table style="width:100%; height:70px">
+          <tbody><tr>
+              <td style="width:2%"><input type="submit" name="ctl00$btnprevious" value="<" id="btnprevious" disabled="disabled" class="aspNetDisabled" style="font-weight:bold;height:70px;width:15px;"></td>
+              <td>
+                <table id="sc" cellspacing="0" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1802" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1802', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Paris Sunshine won</td>
+                            </tr>
+                            <tr>
+                                <td>Pegasus 106/10 </td>
+                            </tr>
+                            <tr>
+                              <td>Paris Sunshine 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1803" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1803', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Masters won</td>
+                            </tr>
+                            <tr>
+                                <td>Spartans 174/6 </td>
+                            </tr>
+                            <tr>
+                              <td>Masters 178/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1804" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1804', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Gladiators won</td>
+                            </tr>
+                            <tr>
+                                <td>Fuzion SC 151/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Brampton Gladiators 156/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1805" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1805', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise won</td>
+                            </tr>
+                            <tr>
+                                <td>Aces Cricket Club 164/7 </td>
+                            </tr>
+                            <tr>
+                              <td>Enterprise 167/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1866" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1866', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Wildfiya won</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Rangers 100/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Wildfiya 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1867" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1867', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Smashers won</td>
+                            </tr>
+                            <tr>
+                                <td>Guycan Tridents 0/0 </td>
+                            </tr>
+                            <tr>
+                              <td>Smashers 0/0  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td>
+	</tr>
+</tbody></table>
+            </td>
+            <td style="width:2%"><input type="submit" name="ctl00$btnnext" value=">" id="btnnext" style="font-weight:bold;height:70px;width:15px;"></td>
+        </tr>
+    </tbody></table>
+</div><!--End of ScoreBoard div-->
+
+            <div class="title">
+            <a href="http://www.orsca.ca"><img id="Image3" class="headerimg" src="../Images/orsca5a.jpg">
+                <h1 class="name">
+                    <table cellspacing="0" id="league" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                        Ontario Round Arm Softball Cricket Association
+                        </td>
+	</tr>
+</tbody></table>             
+                </h1></a>
+            </div>
+            <div class="loginDisplay">
+                
+                        
+                    
+            </div>
+<div class="clear menu"> <!-- Benginning of menu div-->
+    <div id="nav">
+        <ul>
+        <li>
+        <a href="/default.aspx">Home</a>
+        </li>
+        <li>
+        <a href="/Pages/Highlights.aspx">Highlights</a>
+        </li>
+                        <li><a href="#">Points Table</a>
+                            <ul>
+                                <li><a href="/Pages/Standings.aspx">Regular Season</a></li>
+                                <li><a href="/Pages/T10Standings.aspx">Adana Homes T10 Competition</a></li>
+                                <li><a href="/Pages/T15Standings.aspx">Imran Ali Real Estate T15 Competition</a></li>
+                            </ul>
+                         </li>          
+        <li>
+        <a href="#">Statistics</a>
+            <ul>
+                <li>
+                <a href="/Pages/Teamstats.aspx">Team Statistics</a></li><li>
+                <a href="/Pages/Topperformers.aspx">Top Performers</a></li><li>
+                <a href="/Pages/Trophies.aspx">Trophies</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Team Info</a>
+            <ul>
+                <li>
+                <a href="/Pages/Schedule.aspx">Schedule</a></li><li>
+                <a href="/Pages/Profile.aspx">Team Profile</a></li><li>
+                <a href="/Pages/Teamcontacts.aspx">Team Contacts</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Historical</a>
+            <ul>
+                <li>
+                <a href="/Pages/ArchiveStandings.aspx">Historical Standings</a></li><li>
+                <a href="/Pages/ArchiveStats.aspx">Historical Statistics</a></li><li>
+                <a href="/Pages/Champions.aspx">Champions</a></li><li>
+                <a href="/Pages/Gallery.aspx">Gallery</a></li><li>
+                <a href="/Pages/GalleryLinks.aspx">Gallery Links</a></li>
+            </ul>
+        </li><li>
+        <a href="#">League Info</a>
+            <ul>
+                <li><a href="/Pages/BoardExec.aspx">Board Executives</a></li>
+                <li><a href="/Pages/BoardDisciplinary.aspx">Disciplinary Committee</a></li>
+                <li><a href="/Pages/Events.aspx">Events</a></li>
+                <li><a href="/Pages/Documents.aspx">League Documents</a></li>
+            </ul>
+        </li>
+        <li><a href="/Pages/About.aspx">About</a></li>
+        <li style="float:right"><a href="../Account/Login.aspx" id="HeadLoginStatus">Log In</a></li>
+        </ul>
+    </div><!--End of menu div-->
+
+            </div>
+        </div>
+        <div class="main">
+            
+<div class="Table">
+    <div class="Row">
+    <div class="Cell">
+    <div class="Table" style="width:160px">
+        <div class="Row">
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad1" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad1_Image1" src="../images/adimages/fencemaster.gif" style="height:80px;width:120px;"><br>
+                    Test1<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad2" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad2_Image2" src="../images/adimages/nando.gif" style="height:80px;width:120px;"><br>
+                    Test2<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad3" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad3_Image3" src="../images/adimages/shivon.gif" style="height:80px;width:120px;"><br>
+                    Test3<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>           
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad4" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad4_Image4" src="../images/adimages/RRWA.gif" style="height:80px;width:120px;"><br>
+                    Test4<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>             
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad5" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad5_Image5" src="../images/adimages/Mala.gif" style="height:80px;width:120px;"><br>
+                    Test5<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad6" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad6_Image6" src="../images/adimages/Pete.gif" style="height:80px;width:120px;"><br>
+                    Test6<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>            
+            </div>
+            </div>
+         </div>       
+       </div>
+<div class="Cell" style="vertical-align:top; width:625px">
+    <div style="text-indent:10px; text-align:center">
+    <span id="MainContent_txtserID">40</span>
+    <select name="ctl00$MainContent$Series" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$Series\',\'\')', 0)" id="MainContent_Series">
+	<option value="---Select A Series---">---Select A Series---</option>
+	<option value="41">2022 Knockout</option>
+	<option value="42">2022 Playoff</option>
+	<option value="38">2022 Regular Season</option>
+	<option selected="selected" value="40">2022 T10</option>
+	<option value="39">2022 T15</option>
+
+</select>
+    <select name="ctl00$MainContent$TeamList" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$TeamList\',\'\')', 0)" id="MainContent_TeamList">
+	<option selected="selected" value="---Select Team---">---Select Team---</option>
+	<option value="24">11 Man Army</option>
+	<option value="51">Aces Cricket Club</option>
+	<option value="35">Brampton Gladiators</option>
+	<option value="7">Brampton Rangers</option>
+	<option value="59">Cool Runningz</option>
+	<option value="48">Enterprise</option>
+	<option value="41">Finals</option>
+	<option value="16">Fuzion SC</option>
+	<option value="64">Guycan Tridents</option>
+	<option value="60">Industry CC</option>
+	<option value="39">Masters</option>
+	<option value="1">Panthers</option>
+	<option value="61">Paris Sunshine</option>
+	<option value="23">Pegasus</option>
+	<option value="63">Phoenix 11</option>
+	<option value="42">Semi Finals</option>
+	<option value="3">Smashers</option>
+	<option value="29">Spartans</option>
+	<option value="49">TBA</option>
+	<option value="12">Tricounty</option>
+	<option value="57">Wildfiya</option>
+
+</select>
+    <input type="hidden" name="ctl00$MainContent$lblSeriesID" id="MainContent_lblSeriesID" value="38">
+    </div>
+    <br>
+    <br>
+    
+    <table class="ststats">
+    <tbody><tr>
+    <th colspan="8"> Statistics</th>
+    </tr>
+    <tr>
+    <th class="playerhdr">Batsman</th>
+    <th class="teamhdr">Team</th>
+    <th class="rtalign">M</th>
+    <th class="rtalign">I</th>
+    <th class="rtalign">NO</th>
+    <th class="rtalign">HS</th>
+    <th class="rtalign">R</th>
+    <th class="rtalign">AVG.</th>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="lfalign">1. Imran Ali</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">102</td>
+    <td class="rtalign">187</td>
+    <td class="rtalign">93.50</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">2. Adrian Sukhwa</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">64</td>
+    <td class="rtalign">101</td>
+    <td class="rtalign">50.50</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">3. Dinesh Ramkissoon</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">53</td>
+    <td class="rtalign">93</td>
+    <td class="rtalign">46.50</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">4. Morrison Edwards</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">81</td>
+    <td class="rtalign">84</td>
+    <td class="rtalign">84.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">5. Anil Etwaroo</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">38</td>
+    <td class="rtalign">83</td>
+    <td class="rtalign">27.67</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">6. Damodar Daesrath</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">46</td>
+    <td class="rtalign">83</td>
+    <td class="rtalign">41.50</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">7. Davindra Sukhdeo</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">53</td>
+    <td class="rtalign">71</td>
+    <td class="rtalign">71.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">8. Devanand (Devo) Ramsawak (C)</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">32</td>
+    <td class="rtalign">67</td>
+    <td class="rtalign">22.33</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">9. Ashtaq Mohamed</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">46</td>
+    <td class="rtalign">67</td>
+    <td class="rtalign">67.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">10. Shazam Haniff</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">63</td>
+    <td class="rtalign">63</td>
+    <td class="rtalign">63.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">11. Azam Haniff</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">59</td>
+    <td class="rtalign">59</td>
+    <td class="rtalign">59.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">12. Ravi Bhim (JR)</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">54</td>
+    <td class="rtalign">54</td>
+    <td class="rtalign">54.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">13. Avinash Kisseur (SR)</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">54</td>
+    <td class="rtalign">54</td>
+    <td class="rtalign">54.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">14. Imtiaz Abjal</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">53</td>
+    <td class="rtalign">53</td>
+    <td class="rtalign">53.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">15. Nishal Singh</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">52</td>
+    <td class="rtalign">52</td>
+    <td class="rtalign">52.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">16. Rajendra (Vicky) Nauth</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">49</td>
+    <td class="rtalign">49</td>
+    <td class="rtalign">49.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">17. Fazil Gani (C)(SR)</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">42</td>
+    <td class="rtalign">48</td>
+    <td class="rtalign">24.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">18. Avish Rukhram</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">32</td>
+    <td class="rtalign">46</td>
+    <td class="rtalign">23.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">19. Amit Rukhram</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">30</td>
+    <td class="rtalign">43</td>
+    <td class="rtalign">21.50</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">20. Looknauth Ramsuchit</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">40</td>
+    <td class="rtalign">42</td>
+    <td class="rtalign">42.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">21. Chidanand Shiwram</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">42</td>
+    <td class="rtalign">42</td>
+    <td class="rtalign">42.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">22. Lakeram Ishri</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">41</td>
+    <td class="rtalign">41</td>
+    <td class="rtalign">41.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">23. Azib Haniff</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">40</td>
+    <td class="rtalign">40</td>
+    <td class="rtalign">40.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">24. Vivian Pollard</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">31</td>
+    <td class="rtalign">39</td>
+    <td class="rtalign">39.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">25. Bernard De Santos</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">39</td>
+    <td class="rtalign">39</td>
+    <td class="rtalign">39.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">26. Steve Ganesh</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">38</td>
+    <td class="rtalign">38</td>
+    <td class="rtalign">38.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">27. Ryan Moore (C)</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">37</td>
+    <td class="rtalign">37</td>
+    <td class="rtalign">37.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">28. Rajesh Singh</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">34</td>
+    <td class="rtalign">36</td>
+    <td class="rtalign">18.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">29. Hendrick Harrilall</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">26</td>
+    <td class="rtalign">35</td>
+    <td class="rtalign">35.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">30. Kunauth Harry</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">35</td>
+    <td class="rtalign">35</td>
+    <td class="rtalign">35.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">31. Garvin Maharaj</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">33</td>
+    <td class="rtalign">33</td>
+    <td class="rtalign">33.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">32. Salim Hassan</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">33</td>
+    <td class="rtalign">33</td>
+    <td class="rtalign">16.50</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">33. Frankey Persaud</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">31</td>
+    <td class="rtalign">31</td>
+    <td class="rtalign">31.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">34. Kandasammy Surujnarine</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">21</td>
+    <td class="rtalign">31</td>
+    <td class="rtalign">10.33</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">35. Sharaz Ramcharran</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">16</td>
+    <td class="rtalign">30</td>
+    <td class="rtalign">10.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">36. Ramiz Mohamed</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">24</td>
+    <td class="rtalign">30</td>
+    <td class="rtalign">30.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">37. Ryan Sookram</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">19</td>
+    <td class="rtalign">28</td>
+    <td class="rtalign">28.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">38. Avinash Basdeo (JR)</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">28</td>
+    <td class="rtalign">28</td>
+    <td class="rtalign">28.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">39. Devendra Baichan</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">17</td>
+    <td class="rtalign">27</td>
+    <td class="rtalign">27.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">40. Navin Latchman</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">26</td>
+    <td class="rtalign">26</td>
+    <td class="rtalign">26.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">41. Gary Nelson</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">25.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">42. Amir Khan</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">25.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">43. Shazam Baksh</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">24</td>
+    <td class="rtalign">24</td>
+    <td class="rtalign">24.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">44. Satrohan Doodnauth</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">23</td>
+    <td class="rtalign">23</td>
+    <td class="rtalign">23.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">45. Amzad Hassan</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">22.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">46. Ishwarnand "Satesh" Hiralall</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">21</td>
+    <td class="rtalign">21</td>
+    <td class="rtalign">21.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">47. Richie Shivrattan</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">14</td>
+    <td class="rtalign">21</td>
+    <td class="rtalign">10.50</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">48. Navin Sooklall</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">20.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">49. Asif Ali</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">20.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">50. Lindon Persaud</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">19</td>
+    <td class="rtalign">19.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">51. Afraz Mohamed</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">18</td>
+    <td class="rtalign">18</td>
+    <td class="rtalign">18.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">52. Trevor Singh (JR)</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">18</td>
+    <td class="rtalign">18</td>
+    <td class="rtalign">18.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">53. Neilon Williams</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">17</td>
+    <td class="rtalign">17</td>
+    <td class="rtalign">17.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">54. Ameer Khan (n)</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">16</td>
+    <td class="rtalign">16</td>
+    <td class="rtalign">16.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">55. Rupan Ram</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">15.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">56. Shivnarine George</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">15.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">57. Akash Budhram (C)</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">15.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">58. Arvin Persaud (SR)</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">14</td>
+    <td class="rtalign">14</td>
+    <td class="rtalign">14.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">59. Mark Moosaie</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">13.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">60. Shaheed Latiff</td>
+    <td class="lfalign">Brampton Rangers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">13.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">61. Shazim Ibrahim</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">13.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">62. Jeetendra Beharry</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">10.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">63. Shaun Deonandan</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">9</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">5.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">64. Hemnarine Chattergoon</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">9</td>
+    <td class="rtalign">9</td>
+    <td class="rtalign">9.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">65. Richard Ramcharran</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">8.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">66. Vishnu Mangra</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">8.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">67. Mitch Bacchus</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">7.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">68. Colin A Mohamid</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">7.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">69. Shazim Baksh</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">7.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">70. Riaz Kadir</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">3.50</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">71. Abdool Azeez</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">6</td>
+    <td class="rtalign">6</td>
+    <td class="rtalign">6.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">72. Faraad Ali</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">5.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">73. Sarjoo Persaud</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">4.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">74. Aafroze Aziz (C)</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">75. Ryan Bhup</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">76. Prem N Singh</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">77. Vekesh Beharry</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1.50</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">78. Zaman Arjune</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">79. Asif (Chris) Khan</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">80. Aktar Ali</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">81. Imtiaz Moursalien</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">82. Kemraj Rama</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">83. Krishna Persaud (Shawn)</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">84. Navin Bhup</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">85. Randy Jaglall</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">86. Faroud Wahid</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">87. Rabindra (Guy Pro) Persaud</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">88. Richard Persaud</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">89. Naresh Roopnarine</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">90. Fazal (Bunny) Khan (C)</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">91. Krishna  Gopie</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">92. Mohan Harihar</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">93. Omar Bacchus</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">94. Orin Roberts (VC) Senior Rep.</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">95. Anil Ramoutar</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">96. Avinash Sookdeo</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0.50</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">97. Mark Nazir (C)</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">98. Mahendra Nauth (Reds)</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">99. Farook Hussain</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">100. Riyad Ali</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">101. Sanjeev Ramnarine</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">102. Mike Kadir</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">103. Chris Vernon</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">104. Bim Boodhoo</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">105. Ameer Mohamed</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">106. Leon Victor</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">107. Jai D. Narine</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">108. Balram (Murphy) Persaud</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">109. Joshua Kissoon</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">110. Abbas Nazarallie</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">111. Zachary Ganesh</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">112. Maikol Fasil Mirza Pena</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">113. Michael Bacchus</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">114. Alejandro Khan</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">115. Kasim Dhanraj</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">116. Akash Sukhoo</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">117. Kavita Sukhoo</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">118. Haresh Somai</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">119. Anil Manny</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">120. Ivor Hannif</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">121. Ifteeqar Hassan</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">122. Sanjay Ramlakhan</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">123. Alvin Persaud</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">124. Rajendra Dhoray</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">125. Arjun Balkisoon</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">126. Jaydn Tyler Mahadeo</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">127. Romel Harripersaud</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">128. Mickey Persaud</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">129. Aslam Amzad</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">130. Ryan Singh (N)</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">131. Vinod Diadatt</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">132. Salman Khan</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">133. Devindra Persaud</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">134. Deodat Gopie</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">135. Wilfred Mohabir</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">136. Balchan Harripersaud</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">137. Peter Sukdeo (SR)</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">138. Haro Shivratan</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">139. Harinarine Persaud (VC)</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">140. Devindra "Dave" Persaud</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">141. Rishi Sanchara</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">142. Rajesh Seelall</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">143. Parmanand Singh</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">144. Ahmad Khan</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">145. Imran Ali (SR) (VC)</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">146. Ramesh (Storm) Lall</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">147. Tariq Hussain</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">148. Davindra (Devin) Shiwratan</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">149. Rohan Madramottoo</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">150. Patrick Shivrattan</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">151. Anil Mahadeo (C)</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">152. Saeed Khan</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">153. Jordan Bacchus</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">154. Ryan Sitaram</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">155. Raymond Sitaram</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">156. Kemel Khan</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">157. Inul Rudolph</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">158. Tribo Singh</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">159. Naresh Bhagwandin (Capt/Rep)</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">160. Roy Lochan</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">161. Clyde Pestano</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">162. Ashwin "Romesh" Persaud</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">163. Eoin Pollard</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">164. Raymond Pollard</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">165. Deo Bajja</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">166. Alex Chautie</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">167. Pete Sukhu</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">168. Muniram Ramdyal (Doddy)</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">169. Loakram (Naresh) Singh</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">170. Nathan Persaud</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">171. David Bhagwandin</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">172. Daryl Narine</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">173. Dinesh Ajodha</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">174. Davanan Inderdeo</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">175. Urick Lall</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">176. Anand Persaud (VC)</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">177. Navin Indardeo</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">178. Mahendra Chautie</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">179. Rajesh Willie</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">180. Yadram Bogh</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">181. Amar Kisseur</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">182. Vinod Dundee</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">183. Trevor Chakalall (C)</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">184. Safraz Wahab (VC)</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">185. Abu Shameer Khan</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">186. Bobby Parasnauth</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">187. Shafeek Hanif</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">188. Mike Reddy</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">189. Leon Pollard</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">190. Manny Seudat</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">191. Kumar Mohan</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">192. Daniel Pollard</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">193. Altaf Ali</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">194. Arvindra Ramroop</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">195. Armogan Gopaul</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">196. Dave Sirikisoon</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">197. Shruti Singh (VC)</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">198. Azeem Khan</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">199. Shastri Ramkhelawan</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">200. Muniram Karan</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>   
+   
+    <tr class="pricolor">
+    <td class="lfalign">201. Haseeb Gaffoor</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    </tr>
+    
+    </tbody></table>
+    
+    <br>
+    
+    <table class="ststats">
+    <tbody><tr>
+    <th class="playerhdr">Bowler</th>
+    <th class="teamhdr">Team</th>
+    <th class="rtalign">M</th>
+    <th class="rtalign">O</th>
+    <th class="rtalign">R</th>
+    <th class="rtalign">WKT</th>
+    <th class="rtalign">RPO</th>
+    </tr>
+    
+     <tr class="pricolor">
+    <td class="lfalign">1. Davanan Inderdeo</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">33</td>
+    <td class="rtalign">6</td>
+    <td class="rtalign">8.25</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">2. Hemnarine Chattergoon</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.0</td>
+    <td class="rtalign">39</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">6.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">3. Imran Ali</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">5.0</td>
+    <td class="rtalign">51</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">10.20</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">4. Ashtaq Mohamed</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">6.25</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">5. Lindon Persaud</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.0</td>
+    <td class="rtalign">31</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">5.17</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">6. Omar Bacchus</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.0</td>
+    <td class="rtalign">79</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">13.17</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">7. Kemel Khan</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">33</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">8.25</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">8. Rohan Madramottoo</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">9. Richie Shivrattan</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">5.5</td>
+    <td class="rtalign">40</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.86</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">10. Naresh Bhagwandin (Capt/Rep)</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">5.0</td>
+    <td class="rtalign">54</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">10.80</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">11. Ameer Khan (n)</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">12. Kemraj Rama</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">36</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">9.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">13. Sharaz Ramcharran</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.0</td>
+    <td class="rtalign">57</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">9.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">14. Avinash Sookdeo</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">1.5</td>
+    <td class="rtalign">16</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">8.74</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">15. Jeetendra Beharry</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.0</td>
+    <td class="rtalign">36</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">6.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">16. Rajesh Willie</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">3.0</td>
+    <td class="rtalign">35</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">11.67</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">17. Vivian Pollard</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">62</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">15.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">18. David Bhagwandin</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.0</td>
+    <td class="rtalign">78</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">13.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">19. Sanjeev Ramnarine</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">3.0</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">3.33</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">20. Devanand (Devo) Ramsawak (C)</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">7.0</td>
+    <td class="rtalign">67</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">9.57</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">21. Saeed Khan</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">10.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">22. Harinarine Persaud (VC)</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">36</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">18.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">23. Parmanand Singh</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">21</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">5.25</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">24. Imran Ali (SR) (VC)</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">36</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">18.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">25. Mike Kadir</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">11.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">26. Peter Sukdeo (SR)</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">13</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">6.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">27. Neilon Williams</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">55</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">13.75</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">28. Anil Mahadeo (C)</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">14</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">14.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">29. Inul Rudolph</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">42</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">10.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">30. Mitch Bacchus</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">11.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">31. Fazil Gani (C)(SR)</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">46</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">11.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">32. Ashwin "Romesh" Persaud</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">29</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">14.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">33. Muniram Karan</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">3.0</td>
+    <td class="rtalign">52</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">17.33</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">34. Haseeb Gaffoor</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">14</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">14.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">35. Ryan Moore (C)</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">17</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">17.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">36. Armogan Gopaul</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">55</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">13.75</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">37. Dave Sirikisoon</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">23</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">11.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">38. Trevor Chakalall (C)</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">10.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">39. Richard Ramcharran</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">44</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">11.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">40. Colin A Mohamid</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">9</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">4.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">41. Safraz Wahab (VC)</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">4.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">42. Shafeek Hanif</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">11.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">43. Muniram Ramdyal (Doddy)</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">7.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">44. Loakram (Naresh) Singh</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">7.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">45. Leon Victor</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">15.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">46. Shazim Ibrahim</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">18</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">9.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">47. Nishal Singh</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">40</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">10.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">48. Kandasammy Surujnarine</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">4.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">49. Kunauth Harry</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">23</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">11.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">50. Alvin Persaud</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">43</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">21.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">51. Rajendra Dhoray</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">6.0</td>
+    <td class="rtalign">53</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">8.83</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">52. Arjun Balkisoon</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">7.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">53. Mickey Persaud</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">12.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">54. Steve Ganesh</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">21</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">10.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">55. Salman Khan</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">56. Faraad Ali</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">10.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">57. Ameer Mohamed</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">16</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">16.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">58. Romel Harripersaud</td>
+    <td class="lfalign">Phoenix 11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.1</td>
+    <td class="rtalign">28</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">23.93</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">59. Vekesh Beharry</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">7.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">60. Ishwarnand "Satesh" Hiralall</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">3.0</td>
+    <td class="rtalign">26</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">8.67</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">61. Balram (Murphy) Persaud</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">4.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">62. Afraz Mohamed</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">47</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">23.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">63. Devendra Baichan</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0.5</td>
+    <td class="rtalign">18</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">21.69</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">64. Mahendra Chautie</td>
+    <td class="lfalign">Brampton Gladiators</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">11.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">65. Ramiz Mohamed</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">8.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">66. Riaz Kadir</td>
+    <td class="lfalign">Paris Sunshine</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">45</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">22.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">67. Orin Roberts (VC) Senior Rep.</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">22.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">68. Alex Chautie</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">18</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">9.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">69. Mark Nazir (C)</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">7.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">70. Deo Bajja</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.5</td>
+    <td class="rtalign">31</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">16.94</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">71. Navin Latchman</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">24</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">24.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">72. Rabindra (Guy Pro) Persaud</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">17</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">8.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">73. Shivnarine George</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">57</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">14.25</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">74. Tribo Singh</td>
+    <td class="lfalign">11 Man Army</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">14</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">14.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">75. Sarjoo Persaud</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">20</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">20.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">76. Mohan Harihar</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0.4</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1.49</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">77. Anil Ramoutar</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">4.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">78. Rajendra (Vicky) Nauth</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">12.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">79. Kasim Dhanraj</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">15.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">80. Kumar Mohan</td>
+    <td class="lfalign">Enterprise</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">23</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">11.50</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">81. Krishna Persaud (Shawn)</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">39</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">9.75</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">82. Satrohan Doodnauth</td>
+    <td class="lfalign">Masters</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">6</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">6.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">83. Abu Shameer Khan</td>
+    <td class="lfalign">Aces Cricket Club</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0.2</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">30.30</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">84. Fazal (Bunny) Khan (C)</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">14</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">14.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">85. Azeem Khan</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">24</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">12.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">86. Akash Budhram (C)</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">21</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">21.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">87. Jordan Bacchus</td>
+    <td class="lfalign">Cool Runningz</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0.2</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">21.21</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">88. Raymond Sitaram</td>
+    <td class="lfalign">Spartans</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">22.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">89. Mahendra Nauth (Reds)</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">27</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">13.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">90. Roy Lochan</td>
+    <td class="lfalign">Wildfiya</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">40</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">10.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">91. Avinash Basdeo (JR)</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">30</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">30.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">92. Davindra Sukhdeo</td>
+    <td class="lfalign">Fuzion SC</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">28</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">14.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">93. Patrick Shivrattan</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">31</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">15.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">94. Wilfred Mohabir</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">17</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">17.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">95. Balchan Harripersaud</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">4.0</td>
+    <td class="rtalign">42</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">10.50</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">96. Dinesh Ramkissoon</td>
+    <td class="lfalign">Smashers</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">3.5</td>
+    <td class="rtalign">46</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">12.01</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">97. Arvin Persaud (SR)</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">22</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">22.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">98. Devindra "Dave" Persaud</td>
+    <td class="lfalign">Panthers</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0.4</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">17.91</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">99. Ramesh (Storm) Lall</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0.3</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">30.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">100. Tariq Hussain</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">9</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">9.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">101. Navin Bhup</td>
+    <td class="lfalign">Pegasus</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">2.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">102. Frankey Persaud</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">15</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">15.00</td>
+    </tr>    
+    
+     <tr class="pricolor">
+    <td class="lfalign">103. Trevor Singh (JR)</td>
+    <td class="lfalign">Industry CC</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">1.0</td>
+    <td class="rtalign">26</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">26.00</td>
+    </tr>
+    
+     <tr class="altcolor">
+    <td class="lfalign">104. Ahmad Khan</td>
+    <td class="lfalign">Tricounty</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">2.0</td>
+    <td class="rtalign">25</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">12.50</td>
+    </tr>    
+    
+    </tbody></table>
+    
+   </div>
+    <div class="Cell" style="width:10px"></div>
+    <div class="Cell" style="width:160px">
+    <div class="Table">
+        <div class="Row">
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad7" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad7_Image1" src="../images/adimages/office.gif" style="height:80px;width:120px;"><br>
+                    Test7<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad8" style="border-collapse:collapse;">
+
+</table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad9" style="border-collapse:collapse;">
+
+</table>           
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad10" style="border-collapse:collapse;">
+
+</table>             
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad11" style="border-collapse:collapse;">
+
+</table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad12" style="border-collapse:collapse;">
+
+</table>            
+            </div>
+            </div>
+         </div>       
+       </div>
+</div>
+</div>
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+
+
+    </form>
+
+
+</body></html>
