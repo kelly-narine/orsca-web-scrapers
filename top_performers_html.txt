@@ -1,0 +1,1130 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>
+	Official Site: ORSCA
+</title><link href="../Styles/Site.css" rel="stylesheet" type="text/css"><link href="../Styles/orsca.css" rel="stylesheet" type="text/css"><link href="../Styles/MainSite.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.galleryview-1.1.js"></script>
+    <script type="text/javascript" src="../js/jquery.timers-1.1.2.js"></script>
+    <script type="text/javascript" src="../js/readgallery.js"></script>
+    
+</head>
+<body>
+<form method="post" action="./Topperformers.aspx" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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ATcBNwYxMTYuNzVkAgIPZBYCZg8VBgEyEkFiZHVsIFNhbWFkIChCaXJkKQdNYXN0ZXJzATUBNAU5Ni4wMGQCAw9kFgJmDxUGATMMRGVvZGF0IEdvcGllCFNtYXNoZXJzATcBNQU5NC4zM2QCBA9kFgJmDxUGATQMQW16YWQgSGFzc2FuCFNtYXNoZXJzATYBNQU4OS43NWQCBQ9kFgJmDxUGATUNS3VuYXV0aCBIYXJyeQpQaG9lbml4IDExATgBNwU4My43NWQCKQ8WAh8DAgUWCgIBD2QWAmYPFQYBMRFKZWV0ZW5kcmEgQmVoYXJyeQ5QYXJpcyBTdW5zaGluZQE1BDE2LjAEMy41MGQCAg9kFgJmDxUGATIOQXJtb2dhbiBHb3BhdWwIV2lsZGZpeWEBNwQyMi4wBDQuNDFkAgMPZBYCZg8VBgEzDlRyYXZpcyBKYWdsYWxsClBob2VuaXggMTEBNAQxMi4wBDUuMTdkAgQPZBYCZg8VBgE0D1Bhcm1hbmFuZCBTaW5naAhTbWFzaGVycwE5BDI5LjAENS4yMWQCBQ9kFgJmDxUGATUPUmFqZW5kcmEgRGhvcmF5DlBhcmlzIFN1bnNoaW5lATkEMzUuMwQ1LjM1ZAIrDzwrAAoBAA8WBB8EZx8DAgFkFgJmD2QWBmYPDxYCHwVoZGQCAQ9kFgJmD2QWBAIBDw8WAh8GBRx+L2ltYWdlcy9hZGltYWdlcy9vZmZpY2UuZ2lmZGQCAg8VAgVUZXN0Nwx3d3cub3JzY2EuY2FkAgIPDxYCHwVoZGQCLQ88KwAKAQAPFgQfBGcfA2ZkZAIvDzwrAAoBAA8WBB8EZx8DZmRkAjEPPCsACgEADxYEHwRnHwNmZGQCMw88KwAKAQAPFgQfBGcfA2ZkZAI1DzwrAAoBAA8WBB8EZx8DZmRkGBEFFmN0bDAwJE1haW5Db250ZW50JGFkMTEPZ2QFG2N0bDAwJE1haW5Db250ZW50JFNvdXRoWm9uZQ9nZAUaY3RsMDAkTWFpbkNvbnRlbnQkZmlyc3RkaXYPFCsAB2RkZGRkFgACAWQFFmN0bDAwJE1haW5Db250ZW50JGFkMTAPZ2QFDGN0bDAwJGxlYWd1ZQ8UKwAHZGRkZGQWAAIBZAUVY3RsMDAkTWFpbkNvbnRlbnQkYWQzDxQrAAdkZGRkZBYAAgFkBRZjdGwwMCRNYWluQ29udGVudCRhZDEyD2dkBRVjdGwwMCRNYWluQ29udGVudCRhZDEPFCsAB2RkZGRkFgACAWQFFWN0bDAwJE1haW5Db250ZW50JGFkMg8UKwAHZGRkZGQWAAIBZAUVY3RsMDAkTWFpbkNvbnRlbnQkYWQ3DxQrAAdkZGRkZBYAAgFkBRVjdGwwMCRNYWluQ29udGVudCRhZDYPFCsAB2RkZGRkFgACAWQFFWN0bDAwJE1haW5Db250ZW50JGFkNQ8UKwAHZGRkZGQWAAIBZAUVY3RsMDAkTWFpbkNvbnRlbnQkYWQ0DxQrAAdkZGRkZBYAAgFkBRVjdGwwMCRNYWluQ29udGVudCRhZDkPZ2QFFWN0bDAwJE1haW5Db250ZW50JGFkOA9nZAUbY3RsMDAkTWFpbkNvbnRlbnQkc2Vjb25kZGl2DxQrAAdkZGRkZBYAAgFkBRtjdGwwMCRNYWluQ29udGVudCROb3J0aFpvbmUPFCsAB2RkZGRkFgACAWRySVz/4rK9pwCduhf9VhGCbmdub/8HkodmGB/UhAaPjw==">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C0C28941">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAPuZeU7Ck3t6AF4etKz2gjtYWvFbb6I8rOw9MrHen9ZihRJxXISpMuntOoEAN3hWA1TyhZCaQ5RJXiZ+0CoqhB1Z3X7UBjedmcogVIttmp63g==">
+</div>
+<div class="page">
+    <div class="header">
+<div class="scoreboardbg"><!--Beginning of ScoreBoard div-->
+    <table style="width:100%; height:70px">
+          <tbody><tr>
+              <td style="width:2%"><input type="submit" name="ctl00$btnprevious" value="<" id="btnprevious" disabled="disabled" class="aspNetDisabled" style="font-weight:bold;height:70px;width:15px;"></td>
+              <td>
+                <table id="sc" cellspacing="0" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1802" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1802', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Paris Sunshine won</td>
+                            </tr>
+                            <tr>
+                                <td>Pegasus 106/10 </td>
+                            </tr>
+                            <tr>
+                              <td>Paris Sunshine 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1803" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1803', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Masters won</td>
+                            </tr>
+                            <tr>
+                                <td>Spartans 174/6 </td>
+                            </tr>
+                            <tr>
+                              <td>Masters 178/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1804" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1804', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Gladiators won</td>
+                            </tr>
+                            <tr>
+                                <td>Fuzion SC 151/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Brampton Gladiators 156/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1805" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1805', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise won</td>
+                            </tr>
+                            <tr>
+                                <td>Aces Cricket Club 164/7 </td>
+                            </tr>
+                            <tr>
+                              <td>Enterprise 167/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1866" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1866', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Wildfiya won</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Rangers 100/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Wildfiya 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1867" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1867', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Smashers won</td>
+                            </tr>
+                            <tr>
+                                <td>Guycan Tridents 0/0 </td>
+                            </tr>
+                            <tr>
+                              <td>Smashers 0/0  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td>
+	</tr>
+</tbody></table>
+            </td>
+            <td style="width:2%"><input type="submit" name="ctl00$btnnext" value=">" id="btnnext" style="font-weight:bold;height:70px;width:15px;"></td>
+        </tr>
+    </tbody></table>
+</div><!--End of ScoreBoard div-->
+
+            <div class="title">
+            <a href="http://www.orsca.ca"><img id="Image3" class="headerimg" src="../Images/orsca5a.jpg">
+                <h1 class="name">
+                    <table cellspacing="0" id="league" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                        Ontario Round Arm Softball Cricket Association
+                        </td>
+	</tr>
+</tbody></table>             
+                </h1></a>
+            </div>
+            <div class="loginDisplay">
+                
+                        
+                    
+            </div>
+<div class="clear menu"> <!-- Benginning of menu div-->
+    <div id="nav">
+        <ul>
+        <li>
+        <a href="/default.aspx">Home</a>
+        </li>
+        <li>
+        <a href="/Pages/Highlights.aspx">Highlights</a>
+        </li>
+                        <li><a href="#">Points Table</a>
+                            <ul>
+                                <li><a href="/Pages/Standings.aspx">Regular Season</a></li>
+                                <li><a href="/Pages/T10Standings.aspx">Adana Homes T10 Competition</a></li>
+                                <li><a href="/Pages/T15Standings.aspx">Imran Ali Real Estate T15 Competition</a></li>
+                            </ul>
+                         </li>          
+        <li>
+        <a href="#">Statistics</a>
+            <ul>
+                <li>
+                <a href="/Pages/Teamstats.aspx">Team Statistics</a></li><li>
+                <a href="/Pages/Topperformers.aspx">Top Performers</a></li><li>
+                <a href="/Pages/Trophies.aspx">Trophies</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Team Info</a>
+            <ul>
+                <li>
+                <a href="/Pages/Schedule.aspx">Schedule</a></li><li>
+                <a href="/Pages/Profile.aspx">Team Profile</a></li><li>
+                <a href="/Pages/Teamcontacts.aspx">Team Contacts</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Historical</a>
+            <ul>
+                <li>
+                <a href="/Pages/ArchiveStandings.aspx">Historical Standings</a></li><li>
+                <a href="/Pages/ArchiveStats.aspx">Historical Statistics</a></li><li>
+                <a href="/Pages/Champions.aspx">Champions</a></li><li>
+                <a href="/Pages/Gallery.aspx">Gallery</a></li><li>
+                <a href="/Pages/GalleryLinks.aspx">Gallery Links</a></li>
+            </ul>
+        </li><li>
+        <a href="#">League Info</a>
+            <ul>
+                <li><a href="/Pages/BoardExec.aspx">Board Executives</a></li>
+                <li><a href="/Pages/BoardDisciplinary.aspx">Disciplinary Committee</a></li>
+                <li><a href="/Pages/Events.aspx">Events</a></li>
+                <li><a href="/Pages/Documents.aspx">League Documents</a></li>
+            </ul>
+        </li>
+        <li><a href="/Pages/About.aspx">About</a></li>
+        <li style="float:right"><a href="../Account/Login.aspx" id="HeadLoginStatus">Log In</a></li>
+        </ul>
+    </div><!--End of menu div-->
+
+            </div>
+        </div>
+        <div class="main">
+            
+<div class="Table">
+    <div class="Row">
+    <div class="Cell">
+    <div class="Table" style="width:160px">
+        <div class="Row">
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad1" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad1_Image1" src="../images/adimages/fencemaster.gif" style="height:80px;width:120px;"><br>
+                    Test1<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad2" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad2_Image2" src="../images/adimages/nando.gif" style="height:80px;width:120px;"><br>
+                    Test2<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad3" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad3_Image3" src="../images/adimages/shivon.gif" style="height:80px;width:120px;"><br>
+                    Test3<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>           
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad4" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad4_Image4" src="../images/adimages/RRWA.gif" style="height:80px;width:120px;"><br>
+                    Test4<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>             
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad5" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad5_Image5" src="../images/adimages/Mala.gif" style="height:80px;width:120px;"><br>
+                    Test5<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad6" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad6_Image6" src="../images/adimages/Pete.gif" style="height:80px;width:120px;"><br>
+                    Test6<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>            
+            </div>
+            </div>
+         </div>       
+       </div>
+       <div class="Cell" style="width:20px"></div>
+<div class="Cell" style="vertical-align:top; width:620px">
+
+<table>
+<tbody><tr>
+    <td>
+        <h3> 
+             <table cellspacing="0" id="MainContent_firstdiv" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    Elite
+                  </td>
+	</tr>
+</tbody></table> 
+        </h3>
+    </td>
+</tr>
+  <tr>
+  <td>
+    
+    <table class="tp10tbl">
+    <tbody><tr class="tp10cell">
+        <th class="playerhdr">Batsman</th>
+        <th class="teamhdr">Team</th>
+        <th class="rtalign">M</th>
+        <th class="rtalign">I</th>
+        <th class="rtalign">NO</th>
+        <th class="rtalign">HS</th>
+        <th class="rtalign">R</th>
+        <th class="rtalign">AVG.</th>
+    </tr>
+    
+    <tr class="pricolor">
+        <td class="lfalign">1.Damodar Daesrath</td>
+        <td class="lfalign">Brampton Gladiators</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">3</td>
+        <td class="rtalign">110</td>
+        <td class="rtalign">467</td>
+        <td class="rtalign">116.75</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">2.Azam Haniff</td>
+        <td class="lfalign">Masters</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">2</td>
+        <td class="rtalign">130</td>
+        <td class="rtalign">446</td>
+        <td class="rtalign">74.33</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">3.Fazil Gani (C)(SR)</td>
+        <td class="lfalign">Spartans</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">1</td>
+        <td class="rtalign">77</td>
+        <td class="rtalign">384</td>
+        <td class="rtalign">48.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">4.Imran Ali</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">1</td>
+        <td class="rtalign">102</td>
+        <td class="rtalign">355</td>
+        <td class="rtalign">44.38</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">5.Adrian Sukhwa</td>
+        <td class="lfalign">Pegasus</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">0</td>
+        <td class="rtalign">140</td>
+        <td class="rtalign">295</td>
+        <td class="rtalign">42.14</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">6.Ramiz Mohamed</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">2</td>
+        <td class="rtalign">60</td>
+        <td class="rtalign">222</td>
+        <td class="rtalign">37.00</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">7.Devanand (Devo) Ramsawak (C)</td>
+        <td class="lfalign">Pegasus</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">1</td>
+        <td class="rtalign">61</td>
+        <td class="rtalign">216</td>
+        <td class="rtalign">27.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">8.Ryan Moore (C)</td>
+        <td class="lfalign">Enterprise</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">2</td>
+        <td class="rtalign">79</td>
+        <td class="rtalign">215</td>
+        <td class="rtalign">35.83</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">9.Davindra Sukhdeo</td>
+        <td class="lfalign">Fuzion SC</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">6</td>
+        <td class="rtalign">0</td>
+        <td class="rtalign">93</td>
+        <td class="rtalign">214</td>
+        <td class="rtalign">35.67</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">10.Muniram Karan</td>
+        <td class="lfalign">Brampton Gladiators</td>
+        <td class="rtalign">6</td>
+        <td class="rtalign">5</td>
+        <td class="rtalign">2</td>
+        <td class="rtalign">95</td>
+        <td class="rtalign">195</td>
+        <td class="rtalign">65.00</td>
+    </tr>    
+    
+    </tbody></table>
+    
+  </td>
+  </tr>
+  <tr>
+  <td>
+    
+    <table class="tp10tbl">
+    <tbody><tr>
+        <th class="playerhdr">Bowler</th>
+        <th class="teamhdr">Team</th>
+        <th class="rtalign">M</th>
+        <th class="rtalign">O</th>
+        <th class="rtalign">R</th>
+        <th class="rtalign">W</th>
+        <th class="rtalign">RPO</th>
+    </tr>
+    
+    <tr class="pricolor">
+        <td class="lfalign">1.Richie Shivrattan</td>
+        <td class="lfalign">Pegasus</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">33.0</td>
+        <td class="rtalign">235</td>
+        <td class="rtalign">19</td>
+        <td class="rtalign">7.12</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">2.Rajendra Dhoray</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">35.3</td>
+        <td class="rtalign">190</td>
+        <td class="rtalign">18</td>
+        <td class="rtalign">5.35</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">3.Imran Ali</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">34.0</td>
+        <td class="rtalign">190</td>
+        <td class="rtalign">15</td>
+        <td class="rtalign">5.59</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">4.Ameer Khan (n)</td>
+        <td class="lfalign">Masters</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">23.0</td>
+        <td class="rtalign">146</td>
+        <td class="rtalign">15</td>
+        <td class="rtalign">6.35</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">5.Mark Nazir (C)</td>
+        <td class="lfalign">Masters</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">27.5</td>
+        <td class="rtalign">245</td>
+        <td class="rtalign">14</td>
+        <td class="rtalign">8.80</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">6.Devanand (Devo) Ramsawak (C)</td>
+        <td class="lfalign">Pegasus</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">34.3</td>
+        <td class="rtalign">229</td>
+        <td class="rtalign">13</td>
+        <td class="rtalign">6.64</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">7.Hemnarine Chattergoon</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="rtalign">6</td>
+        <td class="rtalign">21.3</td>
+        <td class="rtalign">137</td>
+        <td class="rtalign">12</td>
+        <td class="rtalign">6.37</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">8.Fazil Gani (C)(SR)</td>
+        <td class="lfalign">Spartans</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">29.0</td>
+        <td class="rtalign">247</td>
+        <td class="rtalign">11</td>
+        <td class="rtalign">8.52</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">9.Dinesh Persaud (VC)</td>
+        <td class="lfalign">Enterprise</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">33.2</td>
+        <td class="rtalign">262</td>
+        <td class="rtalign">10</td>
+        <td class="rtalign">7.86</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">10.Amar Kisseur</td>
+        <td class="lfalign">Enterprise</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">24.5</td>
+        <td class="rtalign">252</td>
+        <td class="rtalign">10</td>
+        <td class="rtalign">10.15</td>
+    </tr>    
+    
+    </tbody></table>
+      
+  </td>
+  </tr>
+<tr>
+    <td>
+        <h3> 
+             <table cellspacing="0" id="MainContent_seconddiv" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    Premier
+                  </td>
+	</tr>
+</tbody></table> 
+        </h3>
+    </td>
+</tr>
+  <tr>
+  <td>
+    
+    <table class="tp10tbl">
+    <tbody><tr class="tp10cell">
+        <th class="playerhdr">Batsman</th>
+        <th class="teamhdr">Team</th>
+        <th class="rtalign">M</th>
+        <th class="rtalign">I</th>
+        <th class="rtalign">NO</th>
+        <th class="rtalign">HS</th>
+        <th class="rtalign">R</th>
+        <th class="rtalign">AVG.</th>
+    </tr>
+    
+    <tr class="pricolor">
+        <td class="lfalign">1.Amzad Hassan</td>
+        <td class="lfalign">Smashers</td>
+        <td class="rtalign">6</td>
+        <td class="rtalign">5</td>
+        <td class="rtalign">1</td>
+        <td class="rtalign">105</td>
+        <td class="rtalign">359</td>
+        <td class="rtalign">89.75</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">2.Kunauth Harry</td>
+        <td class="lfalign">Phoenix 11</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">3</td>
+        <td class="rtalign">82</td>
+        <td class="rtalign">335</td>
+        <td class="rtalign">83.75</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">3.Navin Latchman</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">6</td>
+        <td class="rtalign">0</td>
+        <td class="rtalign">127</td>
+        <td class="rtalign">326</td>
+        <td class="rtalign">54.33</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">4.Frankey Persaud</td>
+        <td class="lfalign">Industry CC</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">0</td>
+        <td class="rtalign">88</td>
+        <td class="rtalign">289</td>
+        <td class="rtalign">36.13</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">5.Deodat Gopie</td>
+        <td class="lfalign">Smashers</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">5</td>
+        <td class="rtalign">2</td>
+        <td class="rtalign">104</td>
+        <td class="rtalign">283</td>
+        <td class="rtalign">94.33</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">6.Rishi Sanchara</td>
+        <td class="lfalign">Panthers</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">2</td>
+        <td class="rtalign">77</td>
+        <td class="rtalign">266</td>
+        <td class="rtalign">44.33</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">7.Rabindra (Guy Pro) Persaud</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">1</td>
+        <td class="rtalign">64</td>
+        <td class="rtalign">235</td>
+        <td class="rtalign">33.57</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">8.Ravi Bhim (JR)</td>
+        <td class="lfalign">Wildfiya</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">7</td>
+        <td class="rtalign">0</td>
+        <td class="rtalign">45</td>
+        <td class="rtalign">225</td>
+        <td class="rtalign">32.14</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">9.Hendrick Harrilall</td>
+        <td class="lfalign">Smashers</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">4</td>
+        <td class="rtalign">51</td>
+        <td class="rtalign">224</td>
+        <td class="rtalign">56.00</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">10.Navin Sooklall</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">2</td>
+        <td class="rtalign">57</td>
+        <td class="rtalign">203</td>
+        <td class="rtalign">33.83</td>
+    </tr>    
+    
+    </tbody></table>
+    
+   </td>
+  </tr>
+  <tr>
+  <td>
+    
+    <table class="tp10tbl">
+    <tbody><tr>
+        <th class="playerhdr">Bowler</th>
+        <th class="teamhdr">Team</th>
+        <th class="rtalign">M</th>
+        <th class="rtalign">O</th>
+        <th class="rtalign">R</th>
+        <th class="rtalign">W</th>
+        <th class="rtalign">RPO</th>
+    </tr>
+    
+    <tr class="pricolor">
+        <td class="lfalign">1.Sarjoo Persaud</td>
+        <td class="lfalign">Industry CC</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">27.3</td>
+        <td class="rtalign">205</td>
+        <td class="rtalign">15</td>
+        <td class="rtalign">7.45</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">2.Navin Sooklall</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">26.5</td>
+        <td class="rtalign">225</td>
+        <td class="rtalign">15</td>
+        <td class="rtalign">8.39</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">3.Balchan Harripersaud</td>
+        <td class="lfalign">Smashers</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">30.0</td>
+        <td class="rtalign">207</td>
+        <td class="rtalign">14</td>
+        <td class="rtalign">6.90</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">4.Roy Lochan</td>
+        <td class="lfalign">Wildfiya</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">29.0</td>
+        <td class="rtalign">170</td>
+        <td class="rtalign">13</td>
+        <td class="rtalign">5.86</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">5.Deo Bajja</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">6</td>
+        <td class="rtalign">21.4</td>
+        <td class="rtalign">165</td>
+        <td class="rtalign">13</td>
+        <td class="rtalign">7.61</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">6.Rajendra (Vicky) Nauth</td>
+        <td class="lfalign">Wildfiya</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">23.0</td>
+        <td class="rtalign">194</td>
+        <td class="rtalign">13</td>
+        <td class="rtalign">8.43</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">7.Richard Persaud</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">26.0</td>
+        <td class="rtalign">153</td>
+        <td class="rtalign">12</td>
+        <td class="rtalign">5.88</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">8.Kunauth Harry</td>
+        <td class="lfalign">Phoenix 11</td>
+        <td class="rtalign">8</td>
+        <td class="rtalign">27.0</td>
+        <td class="rtalign">180</td>
+        <td class="rtalign">11</td>
+        <td class="rtalign">6.67</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">9.Tribo Singh</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">27.0</td>
+        <td class="rtalign">215</td>
+        <td class="rtalign">11</td>
+        <td class="rtalign">7.96</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">10.Parmanand Singh</td>
+        <td class="lfalign">Smashers</td>
+        <td class="rtalign">9</td>
+        <td class="rtalign">29.0</td>
+        <td class="rtalign">151</td>
+        <td class="rtalign">10</td>
+        <td class="rtalign">5.21</td>
+    </tr>    
+    
+    </tbody></table>
+      
+  </td>
+  </tr>
+<tr>
+    <td>
+        <h3> 
+             <table cellspacing="0" id="MainContent_NorthZone" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    Central Zone
+                  </td>
+	</tr>
+</tbody></table> 
+        </h3>
+    </td>
+</tr>
+  <tr>
+  <td>
+    
+    <table class="tp10tbl">
+    <tbody><tr class="tp10cell">
+        <th class="playerhdr">Batsman</th>
+        <th class="teamhdr">Team</th>
+        <th class="rtalign">M</th>
+        <th class="rtalign">I</th>
+        <th class="rtalign">NO</th>
+        <th class="rtalign">HS</th>
+        <th class="rtalign">R</th>
+        <th class="rtalign">AVG.</th>
+    </tr>
+    
+    </tbody></table>
+    
+   </td>
+  </tr>
+  <tr>
+  <td>
+    
+    <table class="tp10tbl">
+    <tbody><tr>
+        <th class="playerhdr">Bowler</th>
+        <th class="teamhdr">Team</th>
+        <th class="rtalign">M</th>
+        <th class="rtalign">O</th>
+        <th class="rtalign">R</th>
+        <th class="rtalign">W</th>
+        <th class="rtalign">RPO</th>
+    </tr>
+    
+    </tbody></table>
+      
+  </td>
+  </tr>
+<tr>
+    <td>
+        <h3> 
+              
+        </h3>
+    </td>
+</tr>
+  <tr>
+  <td>
+    
+   </td>
+  </tr>
+  <tr>
+  <td>
+      
+  </td>
+  </tr>
+
+  <tr>
+<td><b>Top Six's Hitter</b></td>
+</tr>
+<tr>
+<td>
+   
+    <table class="tp10tbl">
+    <tbody><tr>
+        <th class="playerhdr">Player</th>
+        <th class="teamhdr">Team</th>
+        <th class="rtalign">Six's</th>
+    </tr>
+    
+    <tr class="pricolor">
+        <td class="lfalign">1.Damodar Daesrath</td>
+        <td class="lfalign">Brampton Gladiators</td>
+        <td class="rtalign">56</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">2.Azam Haniff</td>
+        <td class="lfalign">Masters</td>
+        <td class="rtalign">50</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">3.Navin Latchman</td>
+        <td class="lfalign">11 Man Army</td>
+        <td class="rtalign">41</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">4.Imran Ali</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="rtalign">40</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">5.Fazil Gani (C)(SR)</td>
+        <td class="lfalign">Spartans</td>
+        <td class="rtalign">38</td>
+    </tr>
+    
+    </tbody></table>
+    
+</td>
+</tr>
+<tr>
+<td><b>Top Batting Average - Must Play more than 50% of Regular Season matches</b></td>
+</tr>
+<tr>
+<td>
+   
+    <table class="tp10tbl">
+    <tbody><tr>
+        <th class="playerhdr">Player</th>
+        <th class="teamhdr">Team</th>
+        <th class="ctalign">Matches</th>
+        <th class="ctalign">Innings</th>
+        <th class="rtalign">Avg.</th>
+    </tr>
+    
+    <tr class="pricolor">
+        <td class="lfalign">1.Damodar Daesrath</td>
+        <td class="lfalign">Brampton Gladiators</td>
+        <td class="ctalign">7</td>
+        <td class="ctalign">7</td>
+        <td class="rtalign">116.75</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">2.Abdul Samad (Bird)</td>
+        <td class="lfalign">Masters</td>
+        <td class="ctalign">5</td>
+        <td class="ctalign">4</td>
+        <td class="rtalign">96.00</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">3.Deodat Gopie</td>
+        <td class="lfalign">Smashers</td>
+        <td class="ctalign">7</td>
+        <td class="ctalign">5</td>
+        <td class="rtalign">94.33</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">4.Amzad Hassan</td>
+        <td class="lfalign">Smashers</td>
+        <td class="ctalign">6</td>
+        <td class="ctalign">5</td>
+        <td class="rtalign">89.75</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">5.Kunauth Harry</td>
+        <td class="lfalign">Phoenix 11</td>
+        <td class="ctalign">8</td>
+        <td class="ctalign">7</td>
+        <td class="rtalign">83.75</td>
+    </tr>
+    
+    </tbody></table>
+    
+</td>
+</tr>
+  <tr>
+<td><b>Top Economical Bowler</b></td>
+</tr>
+<tr>
+<td>
+   
+    <table class="tp10tbl">
+    <tbody><tr>
+        <th class="playerhdr">Player</th>
+        <th class="teamhdr">Team</th>
+        <th class="ctalign">Matches</th>
+        <th class="rtalign">Overs</th>
+        <th class="rtalign">RPO</th>
+    </tr>
+    
+    <tr class="pricolor">
+        <td class="lfalign">1.Jeetendra Beharry</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="ctalign">5</td>
+        <td class="rtalign">16.0</td>
+        <td class="rtalign">3.50</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">2.Armogan Gopaul</td>
+        <td class="lfalign">Wildfiya</td>
+        <td class="ctalign">7</td>
+        <td class="rtalign">22.0</td>
+        <td class="rtalign">4.41</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">3.Travis Jaglall</td>
+        <td class="lfalign">Phoenix 11</td>
+        <td class="ctalign">4</td>
+        <td class="rtalign">12.0</td>
+        <td class="rtalign">5.17</td>
+    </tr>
+    
+    <tr class="altcolor">
+        <td class="lfalign">4.Parmanand Singh</td>
+        <td class="lfalign">Smashers</td>
+        <td class="ctalign">9</td>
+        <td class="rtalign">29.0</td>
+        <td class="rtalign">5.21</td>
+    </tr>    
+    
+    <tr class="pricolor">
+        <td class="lfalign">5.Rajendra Dhoray</td>
+        <td class="lfalign">Paris Sunshine</td>
+        <td class="ctalign">9</td>
+        <td class="rtalign">35.3</td>
+        <td class="rtalign">5.35</td>
+    </tr>
+    
+    </tbody></table>
+    
+</td>
+</tr>
+</tbody></table>
+
+   </div>
+    <div class="Cell" style="width:160px">
+    <div class="Table">
+        <div class="Row">
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad7" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                    <img id="MainContent_ad7_Image1" src="../images/adimages/office.gif" style="height:80px;width:120px;"><br>
+                    Test7<br>
+                    <a href="http://www.orsca.ca" target="_blank">For More info</a>
+                    </td>
+	</tr>
+</tbody></table>
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad8" style="border-collapse:collapse;">
+
+</table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad9" style="border-collapse:collapse;">
+
+</table>           
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad10" style="border-collapse:collapse;">
+
+</table>             
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad11" style="border-collapse:collapse;">
+
+</table>            
+            </div>
+            </div>
+            <div class="Row"> 
+            <div class="Cell">
+                    <table class="standingad" cellspacing="0" id="MainContent_ad12" style="border-collapse:collapse;">
+
+</table>            
+            </div>
+            </div>
+         </div>       
+       </div>
+</div>
+</div>
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+
+
+    </form>
+
+
+</body></html>
