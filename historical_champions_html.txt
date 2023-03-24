@@ -1,0 +1,535 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>
+	Official Site: ORSCA
+</title><link href="../Styles/Site.css" rel="stylesheet" type="text/css"><link href="../Styles/orsca.css" rel="stylesheet" type="text/css"><link href="../Styles/MainSite.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.galleryview-1.1.js"></script>
+    <script type="text/javascript" src="../js/jquery.timers-1.1.2.js"></script>
+    <script type="text/javascript" src="../js/readgallery.js"></script>
+    
+</head>
+<body>
+<form method="post" action="./Champions.aspx" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTQ0MjEyMzM2D2QWAmYPDxYCHgJ2c2ZkFgICAw9kFggCAQ8PFgIeB0VuYWJsZWRoZGQCAw88KwAJAQAPFgQeCERhdGFLZXlzFgAeC18hSXRlbUNvdW50AgZkFgxmD2QWAmYPFQYEMTgwMgQxODAyDkF1Z3VzdCAxNCAyMDIyElBhcmlzIFN1bnNoaW5lIHdvbg9QZWdhc3VzIDEwNi8xMCAWUGFyaXMgU3Vuc2hpbmUgMTcxLzcgIGQCAQ9kFgJmDxUGBDE4MDMEMTgwMw5BdWd1c3QgMTQgMjAyMgtNYXN0ZXJzIHdvbg9TcGFydGFucyAxNzQvNiAPTWFzdGVycyAxNzgvMyAgZAICD2QWAmYPFQYEMTgwNAQxODA0DkF1Z3VzdCAxNCAyMDIyF0JyYW1wdG9uIEdsYWRpYXRvcnMgd29uEEZ1emlvbiBTQyAxNTEvOCAbQnJhbXB0b24gR2xhZGlhdG9ycyAxNTYvNyAgZAIDD2QWAmYPFQYEMTgwNQQxODA1DkF1Z3VzdCAxNCAyMDIyDkVudGVycHJpc2Ugd29uGEFjZXMgQ3JpY2tldCBDbHViIDE2NC83IBJFbnRlcnByaXNlIDE2Ny8zICBkAgQPZBYCZg8VBgQxODY2BDE4NjYOQXVndXN0IDE0IDIwMjIMV2lsZGZpeWEgd29uF0JyYW1wdG9uIFJhbmdlcnMgMTAwLzggEFdpbGRmaXlhIDE3MS83ICBkAgUPZBYCZg8VBgQxODY3BDE4NjcOQXVndXN0IDE0IDIwMjIMU21hc2hlcnMgd29uFEd1eWNhbiBUcmlkZW50cyAwLzAgDlNtYXNoZXJzIDAvMCAgZAIJDzwrAAoBAA8WBB4LXyFEYXRhQm91bmRnHwMCAWQWAmYPZBYGZg8PFgIeB1Zpc2libGVoZGQCAQ9kFgJmD2QWAmYPFQEuT250YXJpbyBSb3VuZCBBcm0gU29mdGJhbGwgQ3JpY2tldCBBc3NvY2lhdGlvbmQCAg8PFgIfBWhkZAIPD2QWAgIBDxYCHwMCJBZIAgEPZBYCZg8VBQQyMDIyClQxMChBREFOQSkeQnJhbXB0b24gR2xhZGlhdG9ycyBWUyBQZWdhc3VzCkdsYWRpYXRvcnMhTmlzaGFsIFNpbmdoIGFuZCBEYW1vZGFyIERhZXNyYXRoZAICD2QWAmYPFQUEMjAyMgpUMTUgKEltcmFuEk1hc3RlcnMgVlMgUGVnYXN1cwdNYXN0ZXJzHUF6YW0gSGFuaWZmICYgRGVvY2hhbmQgQm9vZGh1ZAIDD2QWAmYPFQUEMjAyMgpFbGl0ZSBGaW5hGU1hc3RlcnMgVlMgUGFyaXMgU3Vuc2hpbmUOUGFyaXMgU3Vuc2hpbmUZSW1yYW4gQWxpICYgQW5pbCBSYW1vdXRhcmQCBA9kFgJmDxUFBDIwMjIKUHJlbWllciBGaRRTbWFzaGVycyBWUyBXaWxkZml5YQhXaWxkZml5YRtTaHJ1dGkgU2luZ2ggJiBSYWplc2ggU2luZ2hkAgUPZBYCZg8VBQQyMDIxC1QxMCAoQURBTkEpE01hc3RlcnMgVlMgU3Vuc2hpbmUIU3Vuc2hpbmUeSmVldGVuZHJhIEJlaGFycnkgJiBBemliIEhhbmlmZAIGD2QWAmYPFQUEMjAyMQpHcmFuZCBDaGFtHVN1bnNoaW5lIFZTIENhbWJyaWRnZSBKYWd1YXJzCFN1bnNoaW5lI0plZXRlbmRyYSBCZWhhcnJ5IGFuZCBWaWpheSBKaGFwcGFuZAIHD2QWAmYPFQUEMjAxOQpULTEwIENoYW1wHlN0ZWVsIENpdHkgV2FycmlvcnMgVlMgUGVnYXN1cxNTdGVlbCBDaXR5IFdhcnJpb3JzDUF2aXNoIFJ1a2hyYW1kAggPZBYCZg8VBQQyMDE5CkludGVyLUNvdW4WRGVtZXJhcmEgVlMgVGVhbSBPUlNDQQhEZW1lcmFyYQ1EZXZvIFJhbXNhd2FrZAIJD2QWAmYPFQUEMjAxOQoiVEVTVCIgQ2hhElBlZ2FzdXMgVlMgTWFzdGVycwdQZWdhc3VzDE5pc2hhbCBTaW5naGQCCg9kFgJmDxUFBDIwMTkKR3JhbmQgQ2hhbRxNYXN0ZXJzIFZTIENhbWJyaWRnZSBKYWd1YXJzB01hc3RlcnMSU2F0cm9oYW4gRG9vZG5hdXRoZAILD2QWAmYPFQUEMjAxOApULTEwIENoYW1wHlN0ZWVsIENpdHkgV2FycmlvcnMgVlMgTWFzdGVycxNTdGVlbCBDaXR5IFdhcnJpb3JzDEFtaXQgUnVraHJhbWQCDA9kFgJmDxUFBDIwMTgKVC0yMCAiVGVzdB9TdGVlbCBDaXR5IFdhcnJpb3JzIFZTIFNwYXJ0YW5zE1N0ZWVsIENpdHkgV2FycmlvcnMRUmljaGllIFNoaXZyYXR0YW5kAg0PZBYCZg8VBQQyMDE4CkdyYW5kIENoYW0hU3RlZWwgQ2l0eSBXYXJyaW9ycyBWUyBFbnRlcnByaXNlE1N0ZWVsIENpdHkgV2FycmlvcnMMQW1pdCBSdWtocmFtZAIOD2QWAmYPFQUEMjAxOApJbnRlciBDb3VuFUJlcmJpY2UgdnMgVGVhbSBPcnNjYQdCZXJiaWNlAGQCDw9kFgJmDxUFBDIwMTcKSW50ZXIgQ291bhVEZW1lcmFyYSB2cyBFc3NlcXVpYm8IRGVtZXJhcmEAZAIQD2QWAmYPFQUEMjAxNwpULTEwIENoYW1wHlN0ZWVsIENpdHkgV2FycmlvcnMgVlMgU2hhd3NvbhNTdGVlbCBDaXR5IFdhcnJpb3JzDUF2aXNoIFJ1a2hyYW1kAhEPZBYCZg8VBQQyMDE3C1QtMjAgIlRlc3QiIFN1bnJpc2VycyBWUyBTdGVlbCBDaXR5IFdhcnJpb3JzCVN1bnJpc2VycwtBemVleiBCYWtzaGQCEg9kFgJmDxUFBDIwMTcLR3JhbmQgQ2hhbXAeU3VucmlzZXJzIFZTIENhbWJyaWRnZSBKYWd1YXJzCVN1bnJpc2VycwtBemVleiBCYWtzaGQCEw9kFgJmDxUFBDIwMTYKVC0xMCBDaGFtcCBTdW5yaXNlcnMgVlMgU3RlZWwgQ2l0eSBXYXJyaW9ycwlTdW5yaXNlcnMAZAIUD2QWAmYPFQUEMjAxNgtULTIwICJUZXN0IhRTdW5yaXNlcnMgVlMgUGVnYXN1cwlTdW5yaXNlcnMAZAIVD2QWAmYPFQUEMjAxNgtHcmFuZCBDaGFtcBJTcGFydGFucyBWUyBUaXRhbnMIU3BhcnRhbnMAZAIWD2QWAmYPFQUEMjAxNgpJbnRlciBDb3VuFUJlcmJpY2UgdnMgVGVhbSBPcnNjYQpUZWFtIE9yc2NhAGQCFw9kFgJmDxUFBDIwMTUKSW50ZXIgQ291bhRFc3NlcXVpYm8gdnMgQmVyYmljZQlFc3NlcXVpYm8AZAIYD2QWAmYPFQUEMjAxNQpULTEwIENoYW1wFCBQZWdhc3VzIHZzIFNwYXJ0YW5zB1BlZ2FzdXMAZAIZD2QWAmYPFQUEMjAxNQtHcmFuZCBDaGFtcBNQZWdhc3VzIHZzIFNtYXNoZXJzCFNtYXNoZXJzAGQCGg9kFgJmDxUFBDIwMTQKSW50ZXIgQ291bhNEZW1lcmFyYSB2cyBCZXJiaWNlCERlbWVyYXJhAGQCGw9kFgJmDxUFBDIwMTQKVC0xMCBDaGFtcBQgRnV6aW9uIFZTIFN1bnJpc2VycwZGdXppb24AZAIcD2QWAmYPFQUEMjAxNAtHcmFuZCBDaGFtcBRXZXN0IEVuZCB2cyBTbWFzaGVycwhTbWFzaGVycwBkAh0PZBYCZg8VBQQyMDEzClQtMTAgQ2hhbXAdIEJyYW1wdG9uIFJhbmdlcnMgdnMgU2hhd3NvbiATU2hhd3NvbiBTcG9ydHMgQ2x1YgBkAh4PZBYCZg8VBQQyMDEzC0dyYW5kIENoYW1wFlNtYXNoZXJzIFZTIFNoYXdzb24gU0MIU21hc2hlcnMAZAIfD2QWAmYPFQUEMjAxMwpJbnRlciBDb3VuF0Vzc2VxdWlibyB2cyBUZWFtIE9yc2NhCUVzc2VxdWlibwBkAiAPZBYCZg8VBQQyMDEyClQtMTAgQ2hhbXAXQ3VtYmVybGFuZCB2cyBUcmljb3VudHkJVHJpY291bnR5AGQCIQ9kFgJmDxUFBDIwMTIKVC0xNSBDaGFtcB4gQnJhbXB0b24gUmFuZ2VycyB2cy4gU2hhd3NvbiATU2hhd3NvbiBTcG9ydHMgQ2x1YgBkAiIPZBYCZg8VBQQyMDEyC0dyYW5kIENoYW1wHlNoYXdzb24gVlMgQ3VtYmVybGFuZCBIdXN0bGVycxNTaGF3c29uIFNwb3J0cyBDbHViAGQCIw9kFgJmDxUFBDIwMTEKVC0xMCBDaGFtcB4gUm95YWwgQ2hhbGxlbmdlcnMgdnMgUGFudGhlcnMRUm95YWwgQ2hhbGxlbmdlcnMAZAIkD2QWAmYPFQUEMjAxMQtHcmFuZCBDaGFtcB1Sb3lhbCBDaGFsbGVuZ2VycyB2cyBXYWtlbmFhbRFSb3lhbCBDaGFsbGVuZ2VycwBkGAEFDGN0bDAwJGxlYWd1ZQ8UKwAHZGRkZGQWAAIBZE5F8VpbNY/bycCfQhpK7FgM0qtKDB1/h8v2g88ATMjs">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="03C8479D">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAN/XIfjCMEAoby6ikM4O2C2YWvFbb6I8rOw9MrHen9ZihRJxXISpMuntOoEAN3hWA2dp3E4NS+h2UngHj8dUlwICk6jRf0kj+9WutP7Pt0T8g==">
+</div>
+<div class="page">
+    <div class="header">
+<div class="scoreboardbg"><!--Beginning of ScoreBoard div-->
+    <table style="width:100%; height:70px">
+          <tbody><tr>
+              <td style="width:2%"><input type="submit" name="ctl00$btnprevious" value="<" id="btnprevious" disabled="disabled" class="aspNetDisabled" style="font-weight:bold;height:70px;width:15px;"></td>
+              <td>
+                <table id="sc" cellspacing="0" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1802" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1802', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Paris Sunshine won</td>
+                            </tr>
+                            <tr>
+                                <td>Pegasus 106/10 </td>
+                            </tr>
+                            <tr>
+                              <td>Paris Sunshine 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1803" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1803', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Masters won</td>
+                            </tr>
+                            <tr>
+                                <td>Spartans 174/6 </td>
+                            </tr>
+                            <tr>
+                              <td>Masters 178/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1804" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1804', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Gladiators won</td>
+                            </tr>
+                            <tr>
+                                <td>Fuzion SC 151/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Brampton Gladiators 156/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1805" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1805', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise won</td>
+                            </tr>
+                            <tr>
+                                <td>Aces Cricket Club 164/7 </td>
+                            </tr>
+                            <tr>
+                              <td>Enterprise 167/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1866" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1866', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Wildfiya won</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Rangers 100/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Wildfiya 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1867" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1867', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Smashers won</td>
+                            </tr>
+                            <tr>
+                                <td>Guycan Tridents 0/0 </td>
+                            </tr>
+                            <tr>
+                              <td>Smashers 0/0  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td>
+	</tr>
+</tbody></table>
+            </td>
+            <td style="width:2%"><input type="submit" name="ctl00$btnnext" value=">" id="btnnext" style="font-weight:bold;height:70px;width:15px;"></td>
+        </tr>
+    </tbody></table>
+</div><!--End of ScoreBoard div-->
+
+            <div class="title">
+            <a href="http://www.orsca.ca"><img id="Image3" class="headerimg" src="../Images/orsca5a.jpg">
+                <h1 class="name">
+                    <table cellspacing="0" id="league" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                        Ontario Round Arm Softball Cricket Association
+                        </td>
+	</tr>
+</tbody></table>             
+                </h1></a>
+            </div>
+            <div class="loginDisplay">
+                
+                        
+                    
+            </div>
+<div class="clear menu"> <!-- Benginning of menu div-->
+    <div id="nav">
+        <ul>
+        <li>
+        <a href="/default.aspx">Home</a>
+        </li>
+        <li>
+        <a href="/Pages/Highlights.aspx">Highlights</a>
+        </li>
+                        <li><a href="#">Points Table</a>
+                            <ul>
+                                <li><a href="/Pages/Standings.aspx">Regular Season</a></li>
+                                <li><a href="/Pages/T10Standings.aspx">Adana Homes T10 Competition</a></li>
+                                <li><a href="/Pages/T15Standings.aspx">Imran Ali Real Estate T15 Competition</a></li>
+                            </ul>
+                         </li>          
+        <li>
+        <a href="#">Statistics</a>
+            <ul>
+                <li>
+                <a href="/Pages/Teamstats.aspx">Team Statistics</a></li><li>
+                <a href="/Pages/Topperformers.aspx">Top Performers</a></li><li>
+                <a href="/Pages/Trophies.aspx">Trophies</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Team Info</a>
+            <ul>
+                <li>
+                <a href="/Pages/Schedule.aspx">Schedule</a></li><li>
+                <a href="/Pages/Profile.aspx">Team Profile</a></li><li>
+                <a href="/Pages/Teamcontacts.aspx">Team Contacts</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Historical</a>
+            <ul>
+                <li>
+                <a href="/Pages/ArchiveStandings.aspx">Historical Standings</a></li><li>
+                <a href="/Pages/ArchiveStats.aspx">Historical Statistics</a></li><li>
+                <a href="/Pages/Champions.aspx">Champions</a></li><li>
+                <a href="/Pages/Gallery.aspx">Gallery</a></li><li>
+                <a href="/Pages/GalleryLinks.aspx">Gallery Links</a></li>
+            </ul>
+        </li><li>
+        <a href="#">League Info</a>
+            <ul>
+                <li><a href="/Pages/BoardExec.aspx">Board Executives</a></li>
+                <li><a href="/Pages/BoardDisciplinary.aspx">Disciplinary Committee</a></li>
+                <li><a href="/Pages/Events.aspx">Events</a></li>
+                <li><a href="/Pages/Documents.aspx">League Documents</a></li>
+            </ul>
+        </li>
+        <li><a href="/Pages/About.aspx">About</a></li>
+        <li style="float:right"><a href="../Account/Login.aspx" id="HeadLoginStatus">Log In</a></li>
+        </ul>
+    </div><!--End of menu div-->
+
+            </div>
+        </div>
+        <div class="main">
+            
+<h2 class="ctalign">Home of Champions</h2>
+<div class="d1">
+ 
+ <table class="champtbl">
+  <tbody><tr>
+  <th class="yearhdr">Year</th>
+  <th class="matchhdr">Championship</th>
+  <th class="matchhdr">Match</th>
+  <th class="winnerhdr">Winner</th>
+  <th class="winnerhdr">MVP</th>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2022</td>
+ <td class="lfalign">T10(ADANA)</td>
+ <td class="txtindent">Brampton Gladiators VS Pegasus</td>
+ <td class="txtindent">Gladiators</td>
+ <td class="txtindent">Nishal Singh and Damodar Daesrath</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2022</td>
+ <td class="lfalign">T15 (Imran</td>
+ <td class="txtindent">Masters VS Pegasus</td>
+ <td class="txtindent">Masters</td>
+ <td class="txtindent">Azam Haniff &amp; Deochand Boodhu</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2022</td>
+ <td class="lfalign">Elite Fina</td>
+ <td class="txtindent">Masters VS Paris Sunshine</td>
+ <td class="txtindent">Paris Sunshine</td>
+ <td class="txtindent">Imran Ali &amp; Anil Ramoutar</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2022</td>
+ <td class="lfalign">Premier Fi</td>
+ <td class="txtindent">Smashers VS Wildfiya</td>
+ <td class="txtindent">Wildfiya</td>
+ <td class="txtindent">Shruti Singh &amp; Rajesh Singh</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2021</td>
+ <td class="lfalign">T10 (ADANA)</td>
+ <td class="txtindent">Masters VS Sunshine</td>
+ <td class="txtindent">Sunshine</td>
+ <td class="txtindent">Jeetendra Beharry &amp; Azib Hanif</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2021</td>
+ <td class="lfalign">Grand Cham</td>
+ <td class="txtindent">Sunshine VS Cambridge Jaguars</td>
+ <td class="txtindent">Sunshine</td>
+ <td class="txtindent">Jeetendra Beharry and Vijay Jhappan</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2019</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent">Steel City Warriors VS Pegasus</td>
+ <td class="txtindent">Steel City Warriors</td>
+ <td class="txtindent">Avish Rukhram</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2019</td>
+ <td class="lfalign">Inter-Coun</td>
+ <td class="txtindent">Demerara VS Team ORSCA</td>
+ <td class="txtindent">Demerara</td>
+ <td class="txtindent">Devo Ramsawak</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2019</td>
+ <td class="lfalign">"TEST" Cha</td>
+ <td class="txtindent">Pegasus VS Masters</td>
+ <td class="txtindent">Pegasus</td>
+ <td class="txtindent">Nishal Singh</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2019</td>
+ <td class="lfalign">Grand Cham</td>
+ <td class="txtindent">Masters VS Cambridge Jaguars</td>
+ <td class="txtindent">Masters</td>
+ <td class="txtindent">Satrohan Doodnauth</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2018</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent">Steel City Warriors VS Masters</td>
+ <td class="txtindent">Steel City Warriors</td>
+ <td class="txtindent">Amit Rukhram</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2018</td>
+ <td class="lfalign">T-20 "Test</td>
+ <td class="txtindent">Steel City Warriors VS Spartans</td>
+ <td class="txtindent">Steel City Warriors</td>
+ <td class="txtindent">Richie Shivrattan</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2018</td>
+ <td class="lfalign">Grand Cham</td>
+ <td class="txtindent">Steel City Warriors VS Enterprise</td>
+ <td class="txtindent">Steel City Warriors</td>
+ <td class="txtindent">Amit Rukhram</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2018</td>
+ <td class="lfalign">Inter Coun</td>
+ <td class="txtindent">Berbice vs Team Orsca</td>
+ <td class="txtindent">Berbice</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2017</td>
+ <td class="lfalign">Inter Coun</td>
+ <td class="txtindent">Demerara vs Essequibo</td>
+ <td class="txtindent">Demerara</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2017</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent">Steel City Warriors VS Shawson</td>
+ <td class="txtindent">Steel City Warriors</td>
+ <td class="txtindent">Avish Rukhram</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2017</td>
+ <td class="lfalign">T-20 "Test"</td>
+ <td class="txtindent">Sunrisers VS Steel City Warriors</td>
+ <td class="txtindent">Sunrisers</td>
+ <td class="txtindent">Azeez Baksh</td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2017</td>
+ <td class="lfalign">Grand Champ</td>
+ <td class="txtindent">Sunrisers VS Cambridge Jaguars</td>
+ <td class="txtindent">Sunrisers</td>
+ <td class="txtindent">Azeez Baksh</td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2016</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent">Sunrisers VS Steel City Warriors</td>
+ <td class="txtindent">Sunrisers</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2016</td>
+ <td class="lfalign">T-20 "Test"</td>
+ <td class="txtindent">Sunrisers VS Pegasus</td>
+ <td class="txtindent">Sunrisers</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2016</td>
+ <td class="lfalign">Grand Champ</td>
+ <td class="txtindent">Spartans VS Titans</td>
+ <td class="txtindent">Spartans</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2016</td>
+ <td class="lfalign">Inter Coun</td>
+ <td class="txtindent">Berbice vs Team Orsca</td>
+ <td class="txtindent">Team Orsca</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2015</td>
+ <td class="lfalign">Inter Coun</td>
+ <td class="txtindent">Essequibo vs Berbice</td>
+ <td class="txtindent">Essequibo</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2015</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent"> Pegasus vs Spartans</td>
+ <td class="txtindent">Pegasus</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2015</td>
+ <td class="lfalign">Grand Champ</td>
+ <td class="txtindent">Pegasus vs Smashers</td>
+ <td class="txtindent">Smashers</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2014</td>
+ <td class="lfalign">Inter Coun</td>
+ <td class="txtindent">Demerara vs Berbice</td>
+ <td class="txtindent">Demerara</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2014</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent"> Fuzion VS Sunrisers</td>
+ <td class="txtindent">Fuzion</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2014</td>
+ <td class="lfalign">Grand Champ</td>
+ <td class="txtindent">West End vs Smashers</td>
+ <td class="txtindent">Smashers</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2013</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent"> Brampton Rangers vs Shawson </td>
+ <td class="txtindent">Shawson Sports Club</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2013</td>
+ <td class="lfalign">Grand Champ</td>
+ <td class="txtindent">Smashers VS Shawson SC</td>
+ <td class="txtindent">Smashers</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2013</td>
+ <td class="lfalign">Inter Coun</td>
+ <td class="txtindent">Essequibo vs Team Orsca</td>
+ <td class="txtindent">Essequibo</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2012</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent">Cumberland vs Tricounty</td>
+ <td class="txtindent">Tricounty</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2012</td>
+ <td class="lfalign">T-15 Champ</td>
+ <td class="txtindent"> Brampton Rangers vs. Shawson </td>
+ <td class="txtindent">Shawson Sports Club</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2012</td>
+ <td class="lfalign">Grand Champ</td>
+ <td class="txtindent">Shawson VS Cumberland Hustlers</td>
+ <td class="txtindent">Shawson Sports Club</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+ <tr class="pricolor">
+ <td class="lfalign">2011</td>
+ <td class="lfalign">T-10 Champ</td>
+ <td class="txtindent"> Royal Challengers vs Panthers</td>
+ <td class="txtindent">Royal Challengers</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  <tr class="altcolor">
+ <td class="lfalign">2011</td>
+ <td class="lfalign">Grand Champ</td>
+ <td class="txtindent">Royal Challengers vs Wakenaam</td>
+ <td class="txtindent">Royal Challengers</td>
+ <td class="txtindent"></td>
+ </tr>
+ 
+  </tbody></table>
+  
+</div>
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+
+
+    </form>
+
+
+</body></html>
