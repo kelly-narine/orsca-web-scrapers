@@ -1,0 +1,442 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>
+	Official Site: ORSCA
+</title><link href="../Styles/Site.css" rel="stylesheet" type="text/css"><link href="../Styles/orsca.css" rel="stylesheet" type="text/css"><link href="../Styles/MainSite.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.galleryview-1.1.js"></script>
+    <script type="text/javascript" src="../js/jquery.timers-1.1.2.js"></script>
+    <script type="text/javascript" src="../js/readgallery.js"></script>
+    
+</head>
+<body>
+<form method="post" action="./ArchiveStandings.aspx" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl01'];
+if (!theForm) {
+    theForm = document.ctl01;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CEA2C67A">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA8k1IWAxKBxhZOHhdX0hrx8YWvFbb6I8rOw9MrHen9ZihRJxXISpMuntOoEAN3hWA1Yjh44UFCA71tSpJ0U3aXhalsTIore+y0JqinhHEUm7sZGjuH1FudNCHIy8dMFs+Z6DEvGSSoJ0rafzj3uyt6sx2Ui7iwNY4+S4M99dt++2+msQ3eJv1yTWYc3gR/+NU2+iKF+CyqYILb6/RhuBH/5gc+CVj9+fD8viQk9yqOxL/Knw9Ru0PbL3rxESxPlND3dUMRZL7vgrH0DjxOArARuR0g2r1jgRXVIa+EtP+IswjTnf91kZ8xjI2xiR4l8jsmG+0Eutca+kzCKpP9PX8gxku4PgUmmp0Sfz4+OjOEoNQ==">
+</div>
+<div class="page">
+    <div class="header">
+<div class="scoreboardbg"><!--Beginning of ScoreBoard div-->
+    <table style="width:100%; height:70px">
+          <tbody><tr>
+              <td style="width:2%"><input type="submit" name="ctl00$btnprevious" value="<" id="btnprevious" disabled="disabled" class="aspNetDisabled" style="font-weight:bold;height:70px;width:15px;"></td>
+              <td>
+                <table id="sc" cellspacing="0" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1802" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1802', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Paris Sunshine won</td>
+                            </tr>
+                            <tr>
+                                <td>Pegasus 106/10 </td>
+                            </tr>
+                            <tr>
+                              <td>Paris Sunshine 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1803" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1803', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Masters won</td>
+                            </tr>
+                            <tr>
+                                <td>Spartans 174/6 </td>
+                            </tr>
+                            <tr>
+                              <td>Masters 178/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1804" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1804', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Gladiators won</td>
+                            </tr>
+                            <tr>
+                                <td>Fuzion SC 151/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Brampton Gladiators 156/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1805" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1805', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Enterprise won</td>
+                            </tr>
+                            <tr>
+                                <td>Aces Cricket Club 164/7 </td>
+                            </tr>
+                            <tr>
+                              <td>Enterprise 167/3  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1866" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1866', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Wildfiya won</td>
+                            </tr>
+                            <tr>
+                                <td>Brampton Rangers 100/8 </td>
+                            </tr>
+                            <tr>
+                              <td>Wildfiya 171/7  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td><td>
+                        <a href="../Pages/ScoreCard.aspx?MatchID=1867" onclick="window.open('../Pages/ScoreCard.aspx?MatchID=1867', 'popup','width=560, height=520, top=10, left=200, scrollbars=yes,directories=no,status=no,menubar=no'); return false;" target="popup">
+                        <table class="scoreboard">
+                            <tbody><tr>
+                                <td class="scbddate">August 14 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Smashers won</td>
+                            </tr>
+                            <tr>
+                                <td>Guycan Tridents 0/0 </td>
+                            </tr>
+                            <tr>
+                              <td>Smashers 0/0  </td>
+                            </tr>
+                        </tbody></table>
+                        </a>
+                   </td>
+	</tr>
+</tbody></table>
+            </td>
+            <td style="width:2%"><input type="submit" name="ctl00$btnnext" value=">" id="btnnext" style="font-weight:bold;height:70px;width:15px;"></td>
+        </tr>
+    </tbody></table>
+</div><!--End of ScoreBoard div-->
+
+            <div class="title">
+            <a href="http://www.orsca.ca"><img id="Image3" class="headerimg" src="../Images/orsca5a.jpg">
+                <h1 class="name">
+                    <table cellspacing="0" id="league" style="border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2">
+                        Ontario Round Arm Softball Cricket Association
+                        </td>
+	</tr>
+</tbody></table>             
+                </h1></a>
+            </div>
+            <div class="loginDisplay">
+                
+                        
+                    
+            </div>
+<div class="clear menu"> <!-- Benginning of menu div-->
+    <div id="nav">
+        <ul>
+        <li>
+        <a href="/default.aspx">Home</a>
+        </li>
+        <li>
+        <a href="/Pages/Highlights.aspx">Highlights</a>
+        </li>
+                        <li><a href="#">Points Table</a>
+                            <ul>
+                                <li><a href="/Pages/Standings.aspx">Regular Season</a></li>
+                                <li><a href="/Pages/T10Standings.aspx">Adana Homes T10 Competition</a></li>
+                                <li><a href="/Pages/T15Standings.aspx">Imran Ali Real Estate T15 Competition</a></li>
+                            </ul>
+                         </li>          
+        <li>
+        <a href="#">Statistics</a>
+            <ul>
+                <li>
+                <a href="/Pages/Teamstats.aspx">Team Statistics</a></li><li>
+                <a href="/Pages/Topperformers.aspx">Top Performers</a></li><li>
+                <a href="/Pages/Trophies.aspx">Trophies</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Team Info</a>
+            <ul>
+                <li>
+                <a href="/Pages/Schedule.aspx">Schedule</a></li><li>
+                <a href="/Pages/Profile.aspx">Team Profile</a></li><li>
+                <a href="/Pages/Teamcontacts.aspx">Team Contacts</a></li>
+            </ul>
+        </li><li>
+        <a href="#">Historical</a>
+            <ul>
+                <li>
+                <a href="/Pages/ArchiveStandings.aspx">Historical Standings</a></li><li>
+                <a href="/Pages/ArchiveStats.aspx">Historical Statistics</a></li><li>
+                <a href="/Pages/Champions.aspx">Champions</a></li><li>
+                <a href="/Pages/Gallery.aspx">Gallery</a></li><li>
+                <a href="/Pages/GalleryLinks.aspx">Gallery Links</a></li>
+            </ul>
+        </li><li>
+        <a href="#">League Info</a>
+            <ul>
+                <li><a href="/Pages/BoardExec.aspx">Board Executives</a></li>
+                <li><a href="/Pages/BoardDisciplinary.aspx">Disciplinary Committee</a></li>
+                <li><a href="/Pages/Events.aspx">Events</a></li>
+                <li><a href="/Pages/Documents.aspx">League Documents</a></li>
+            </ul>
+        </li>
+        <li><a href="/Pages/About.aspx">About</a></li>
+        <li style="float:right"><a href="../Account/Login.aspx" id="HeadLoginStatus">Log In</a></li>
+        </ul>
+    </div><!--End of menu div-->
+
+            </div>
+        </div>
+        <div class="main">
+            
+<div>
+<div class="ctalign">
+    <select name="ctl00$MainContent$Series" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$Series\',\'\')', 0)" id="MainContent_Series">
+	<option value="---Select A Series---">---Select A Series---</option>
+	<option selected="selected" value="1">2012 Regular Season</option>
+	<option value="5">2013 Regular Season</option>
+	<option value="8">2014 Regular Season</option>
+	<option value="11">2015 Regular Season</option>
+	<option value="15">2016 Regular Season</option>
+	<option value="18">2017 Regular Season</option>
+	<option value="21">2018 Regular Season</option>
+	<option value="25">2019 Regular Season</option>
+	<option value="29">2020 Regular Season</option>
+	<option value="34">2021 Regular Season</option>
+
+</select>
+    <h3><span id="MainContent_SeriesName">2012 Regular Season Final Standings</span></h3>
+</div>
+<br>
+<div class="d1">
+    
+    <table class="firstdiv">
+    <tbody><tr>
+    <th colspan="7">East Zone</th>
+    </tr>
+    <tr>
+    <th class="teamhdr">Team</th>
+    <th class="stathd">M</th>
+    <th class="stathd">W</th>
+    <th class="stathd">L</th>
+    <th class="stathd">D</th>
+    <th class="stathd">NRR</th>
+    <th class="stathd">PTS</th>
+    </tr>
+    
+    <tr class="pricolor">
+    <td class="lfalign">1. Wakenaam Ramblers</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">11</td>
+    <td class="rtalign">1</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">2.91</td>
+    <td class="rtalign">81</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">2. Shawson</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1.93</td>
+    <td class="rtalign">69</td>
+    </tr>    
+    
+    <tr class="pricolor">
+    <td class="lfalign">3. Royal Challengers</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">9</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">2.11</td>
+    <td class="rtalign">65</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">4. Cumberland</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1.40</td>
+    <td class="rtalign">63</td>
+    </tr>    
+    
+    <tr class="pricolor">
+    <td class="lfalign">5. Smashers</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1.30</td>
+    <td class="rtalign">60</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">6. Brampton Rangers</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">1.07</td>
+    <td class="rtalign">59</td>
+    </tr>    
+    
+    <tr class="pricolor">
+    <td class="lfalign">7. Tricounty</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">0.00</td>
+    <td class="rtalign">37</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">8. Panthers</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">-0.57</td>
+    <td class="rtalign">37</td>
+    </tr>    
+    
+    <tr class="pricolor">
+    <td class="lfalign">9. Humberwood</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">5</td>
+    <td class="rtalign">7</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">-0.65</td>
+    <td class="rtalign">37</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">10. Cambridge Jaguars</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">4</td>
+    <td class="rtalign">8</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">-0.07</td>
+    <td class="rtalign">32</td>
+    </tr>    
+    
+    <tr class="pricolor">
+    <td class="lfalign">11. Island Boys</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">3</td>
+    <td class="rtalign">9</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">-1.51</td>
+    <td class="rtalign">21</td>
+    </tr>
+    
+    <tr class="altcolor">
+    <td class="lfalign">12. West End</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">2</td>
+    <td class="rtalign">10</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">-3.04</td>
+    <td class="rtalign">14</td>
+    </tr>    
+    
+    <tr class="pricolor">
+    <td class="lfalign">13. Horizon</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">12</td>
+    <td class="rtalign">0</td>
+    <td class="rtalign">-5.27</td>
+    <td class="rtalign">3</td>
+    </tr>
+    
+    </tbody></table>
+    
+    </div>
+   
+    <div class="d2">
+    
+    <table class="seconddiv">
+    <tbody><tr>
+    <th colspan="7">West Zone</th>
+    </tr>
+    <tr>
+    <th class="teamhdr">Team</th>
+    <th class="stathd">M</th>
+    <th class="stathd">W</th>
+    <th class="stathd">L</th>
+    <th class="stathd">D</th>
+    <th class="stathd">NRR</th>
+    <th class="stathd">PTS</th>
+    </tr>
+    
+    </tbody></table>
+    
+    </div>
+</div>
+
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+
+
+    </form>
+
+
+</body></html>
